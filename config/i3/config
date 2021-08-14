@@ -1,0 +1,482 @@
+#######################################################
+# basic
+#######################################################
+# mod
+set $mod Mod4
+
+# font
+font pango: System San Francisco Display 10
+
+# drag windows
+floating_modifier $mod
+
+# window configuration
+title_align center
+default_border normal
+default_floating_border normal
+hide_edge_borders smart
+focus_follows_mouse no
+popup_during_fullscreen smart
+force_focus_wrapping workspace
+
+# Set window border size
+for_window [class=".*"] border pixel 3
+
+
+
+#######################################################
+# Color
+#######################################################
+
+## Hide/unhide i3status bar
+# bindsym $mod+m bar mode toggle
+
+# Theme colors
+#   class                   border  bground text    indicator child_border
+    client.focused          #8FBCBB #3B4252 #2e3440 #3B4252   #8FBCBB
+    client.focused_inactive #81A1C1 #2e3440 #81A1C1 #2e3440   #81A1C1
+    client.unfocused        #5e81ac #2e3440 #81A1C1 #2e3440   #5e81ac
+    client.urgent           #bf616a #8FBCBB #2e3440 #8FBCBB   #bf616a
+    client.placeholder      #3B4252 #2e3440 #81A1C1 #2e3440   #3B4252
+
+    client.background       #3B4252
+
+
+set_from_resource $term_background background
+set_from_resource $term_foreground foreground
+set_from_resource $term_color0     color0
+set_from_resource $term_color1     color1
+set_from_resource $term_color2     color2
+set_from_resource $term_color3     color3
+set_from_resource $term_color4     color4
+set_from_resource $term_color5     color5
+set_from_resource $term_color6     color6
+set_from_resource $term_color7     color7
+set_from_resource $term_color8     color8
+set_from_resource $term_color9     color9
+set_from_resource $term_color10    color10
+set_from_resource $term_color11    color11
+set_from_resource $term_color12    color12
+set_from_resource $term_color13    color13
+set_from_resource $term_color14    color14
+set_from_resource $term_color15    color15
+
+#######################################################
+# Workspaces
+#######################################################
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "0"
+set $ws11 "F11"
+set $ws12 "F12"
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# Create new workspace
+bindsym $mod+n exec ~/.config/i3/scripts/new-workspace.sh
+
+# next/previous workspace
+ bindsym $mod+Tab       workspace back_and_forth
+# bindsym $mod+Tab         workspace next
+# bindsym $mod+Shift+Tab   workspace prev
+
+# switch to workspace with urgent window automatically
+# for_window [urgent=latest] focus
+
+#######################################################
+# assign programs
+#######################################################
+
+# open applications on specific workspaces
+
+#-15---SocialNetwork
+assign [class=WebApp-Facebook4879|Instagram8413] $ws11
+bindsym $mod+Shift+g exec ~/bin/SocialNetwork
+
+#---Tools
+assign [class=scrcpy|BleachBit|Clamtk|WebApp-Windy8320] $ws12
+assign [class=Xfce4-taskmanager|Pavucontrol|Nitrogen|Lxappearance|Gdebi-gtk] $ws12
+
+#-12---Email
+assign [class="Thunderbird"] $ws11  
+
+#-11---mail
+assign [class=WebApp-Protonmail6899"|WebApp-Gmail5689"|WebApp-Protonmail6026] $ws11
+
+#-10---anyn-net 
+assign [class=Kotatogram|discord] $ws10
+
+#-9---pdf
+assign [class="Zathura"] $ws9
+
+#-7--tor
+assign [class="Tor Browser"] $ws7
+
+#-6--Media
+assign [class= mpv|cantata|Osdlyrics] $ws6
+
+#-5--Softwar
+assign [class=Inkscape|Gimp] $ws5
+
+#-4--Downloads
+assign [class=Tixati|Nicotine|xdman-Main] $ws4
+
+
+#-3---Msg
+assign [class="Code"] $ws3
+
+#-2--Browser
+assign [class=Brave-browser] $ws2
+assign [class="Firefox"] $ws2
+
+
+#######################################################
+# Gaps
+#######################################################
+
+# Set I3 Gaps
+gaps inner 20
+gaps outer 8
+gaps top 4
+gaps bottom 2
+#smart_gaps on
+
+
+#######################################################
+# Startup
+#######################################################
+# Telegram on tray 
+exec_always --no-startup-id Kotatogram --no-remote 
+
+# Start Nitrogen
+exec --no-startup-id sleep 1; nitrogen --restore
+
+# Xresources
+exec_always --no-startup-id xrdb ~/.Xresources &
+
+# clipit
+exec --no-startup-id clipit &
+
+# Start Pulseaudio
+exec --no-startup-id pulseaudio --start
+# exec_always --no-startup-id pulseeffects --gapplication-service
+
+# Start Authentication
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+# Start Polybar
+exec_always  --no-startup-id /home/dt/.config/polybar/launch.sh
+
+# Start fluxgui
+exec --no-startup-id fluxgui
+
+# Start Num_Lock
+exec --no-startup-id numlockx on
+
+# Start Dunst
+exec --no-startup-id dunst ~/.config/dunstrc
+
+# Start Mpd
+exec_always --no-startup-id mpd
+exec_always --no-startup-id mpdas -d
+
+
+# Start autolock
+exec --no-startup-id xautolock -time 10 -locker "i3lock-fancy --pixelate"
+
+# Start i3 focus last window
+exec --no-startup-id i3-focus-last
+
+# Start workspace names
+#exec_always --no-startup-id exec i3-workspace-names-daemon --delimiter " | "
+
+# Start wireless
+exec --no-startup-id nm-applet
+exec --no-startup-id notify-send "Welcome back Youssef" -i ~/Pictures/avatar/ycc.png
+
+# Snapstore
+exec systemctl start snapd.service 
+
+# Start Megasync
+# exec --no-startup-id megasync
+
+# Power management
+exec_always xfce4-power-manager
+
+
+# Start Picom 
+# exec_always --no-startup-id picom --config ~/.config/picom/picom.conf -b --experimental-backends
+
+# System-usb-mount
+# exec --no-startup-id udiskie -a -t -F &
+
+# Disable
+
+# exec_always --no-startup-id xfce4-panel
+# exec_always --no-startup-id  bash -c "if xset q | grep -q 'Num Lock: *off'; then xdotool key Num_Lock; fi"
+# exec --no-startup-id conky -c ~/.config/conky/conkyrc -d
+# exec --no-startup-id i3-msg 'workspace 3; exec nautilus --no-desktop'
+# exec --no-startup-id i3-msg 'workspace 2; exec google-chrome; exec spotify'
+# exec --no-startup-id i3-msg 'workspace 1; exec netbeans'
+
+
+#######################################################
+# i3 windows
+#######################################################
+# resize mode
+bindsym $mod+r mode "resize"
+
+# shrink / expand windows
+bindsym $mod+Mod1+j                 resize shrink width 5 px or 5 ppt
+bindsym $mod+Mod1+k                 resize grow height 5 px or 5 ppt
+bindsym $mod+Mod1+l                 resize shrink height 5 px or 5 ppt
+bindsym $mod+Mod1+m                 resize grow width 5 px or 5 ppt
+
+# Same bindings, but for the arrow keys
+bindsym $mod+Shift+Ctrl+Left       resize shrink height 5 px or 5 ppt
+bindsym $mod+Shift+Ctrl+Down       resize grow width 5 px or 5 ppt
+bindsym $mod+Shift+Ctrl+Up         resize shrink width 5 px or 5 ppt
+bindsym $mod+Shift+Ctrl+Right      resize grow height 5 px or 5 ppt
+
+# same bindings, but for the arrow keys
+bindsym $mod+Ctrl+Left             resize shrink width 1 px or 1 ppt
+bindsym $mod+Ctrl+Down             resize grow height 1 px or 1 ppt
+bindsym $mod+Ctrl+Up               resize shrink height 1 px or 1 ppt
+bindsym $mod+Ctrl+Right            resize grow width 1 px or 1 ppt
+
+#  same bindigs with mose key bindings
+
+bindsym --whole-window $mod+button3 floating toggle                      # Right click toggles floating
+bindsym --whole-window $mod+button2 kill                                 # Middle click kills window
+
+# Mod+Scroll wheel up or down adjusts height or (mod+Shift+scroll wheel) width of floating window.
+
+bindsym --whole-window $mod+button4             resize shrink height 20 px or 20 ppt
+bindsym --whole-window $mod+button5             resize grow height 20 px or 20 ppt 
+bindsym --whole-window $mod+Shift+button4       resize shrink width 20 px or 20 ppt       
+bindsym --whole-window $mod+Shift+button5       resize grow width 20 px or 20 ppt
+
+# 
+
+bindsym --whole-window $mod+Ctrl+button4             resize shrink height 5 px or 5 ppt
+bindsym --whole-window $mod+Ctrl+button5             resize grow height 5 px or 5 ppt 
+bindsym --whole-window $mod+Ctrl+Shift+button4       resize shrink width 5 px or 5 ppt
+bindsym --whole-window $mod+Ctrl+Shift+button5       resize grow width 5 px or 5 ppt
+
+
+# change focus
+bindsym $mod+j          focus left
+bindsym $mod+k          focus down
+bindsym $mod+l          focus up
+bindsym $mod+m          focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left       focus left
+bindsym $mod+Down       focus down
+bindsym $mod+Up         focus up
+bindsym $mod+Right      focus right
+
+# move focused window
+bindsym $mod+Shift+j        move left
+bindsym $mod+Shift+k        move down
+bindsym $mod+Shift+l        move up
+bindsym $mod+Shift+m        move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left     move left
+bindsym $mod+Shift+Down     move down
+bindsym $mod+Shift+Up       move up
+bindsym $mod+Shift+Right    move right
+
+#Window Splitting
+bindsym $mod+h split h; exec notify-send "冀  |  Horizontal tiling"
+bindsym $mod+v split v; exec notify-send "響  |  Vertical tiling"
+
+bindsym $mod+b exec pkill i3-auto-layout; exec python ~/.config/i3/scripts/alternating-layout.py; exec notify-send "况  |  Bspwm tiling"
+bindsym $mod+f exec --no-startup-id ~/.config/i3/scripts/i3-auto-layout; exec notify-send "侀  |  Fibonacci spiral tiling"
+
+# toggle fullscreen mode for the focused container
+bindsym $mod+Ctrl+f fullscreen
+
+# close window
+bindsym $mod+Shift+c kill 
+
+# sticky window
+bindsym $mod+Shift+s sticky toggle
+
+# change container layout
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+
+#######################################################
+# Program launching
+#######################################################
+# scrcpy
+bindsym $mod+o exec scrcpy
+
+# Gnirehtet
+bindsym $mod+Shift+o exec ~/bin/Gnirehtet/gnirehtet autorun
+
+# Teminal
+bindsym $mod+Return exec kitty
+bindsym $mod+Shift+Return exec --no-startup-id kitty --title="i3-float" 
+
+# Browser
+bindsym $mod+Shift+b exec firejail --apparmor brave-browser --no-remote
+bindsym $mod+Shift+f exec ~/bin/ephemeralFirefox2.sh
+#bindsym $mod+Shift+u exec 
+
+# File manager
+bindsym $mod+z exec pcmanfm
+bindsym $mod+Shift+z exec kitty -e ranger
+bindsym $mod+Ctrl+z exec spacefm
+
+# Music Player
+bindsym $mod+Ctrl+m exec kitty -e ncmpcpp 
+
+# drun
+bindsym $mod+d exec --no-startup-id ~/bin/rofi.sh -d
+# bindsym $mod+d exec  rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/nord.rasi
+
+# clipmenu
+bindsym $mod+Shift+v exec --no-startup-id ~/bin/rofi.sh -l
+
+# Power-menu
+bindsym $mod+y exec --no-startup-id ~/bin/rofi.sh -p
+
+# print screen
+bindsym Print exec --no-startup-id  ~/bin/rofi.sh -s
+
+# Launch lockscreen
+bindsym $mod+Shift+Delete  exec /home/dt/.config/i3/scripts/i3lock/i3lock-fancy
+
+# Torrent
+bindsym $mod+u exec kitty -e rtorrent
+
+#######################################################
+# keybindings
+#######################################################
+
+# Control music
+
+bindsym $mod+F11 exec --no-startup-id mpc play
+bindsym $mod+F12 exec --no-startup-id mpc pause
+
+# Amixer
+bindsym $mod+F3 exec amixer set Master 2%+
+bindsym $mod+F2 exec amixer set Master 2%-
+bindsym $mod+F1 exec amixer set Master toggle 
+
+# reload the configuration file
+bindsym $mod+ctrl+r reload
+
+# restart i3 inplace
+bindsym $mod+Shift+r restart
+
+# exit i3
+bindsym $mod+Shift+e exec /home/dt/.config/i3/scripts/exit_menu
+
+# Keys
+exec_always xmodmap -e "clear lock" #disable caps lock switch
+exec_always xmodmap -e "keysym Caps_Lock = Escape" #set caps_lock as escape
+
+bindsym $mod+p exec --no-startup-id python ~/.config/i3/scripts/promote-window.py; exec notify-send " | Promoted window"
+
+
+
+
+#######################################################
+#FLOATING MODE 
+#######################################################
+
+
+
+# tiling rules 
+
+
+
+for_window [class="spacefm"]                            floating enable
+for_window [window_role="About"]                        floating enable
+for_window [window_role="pop-up"]                       floating enable
+for_window [window_role="bubble"]                       floating enable 
+for_window [window_role="task_dialog"]                  floating enable
+for_window [window_role="Preferences"]                  floating enable
+for_window [window_type="dialog"]                       floating enable 
+for_window [window_type="menu"]                         floating enable
+for_window [window_type="save_as"]                      floating enable
+for_window [window_type="copyq"]                        floating enable
+for_window [window_type="gcolor"]						floating enable
+for_window [title="alsamixer"]                          floating enable 
+for_window [class="Gdebi-gtk"]                          floating enable
+for_window [title="i3_help"]                            floating enable 
+for_window [class="Lightdm-settings"]                   floating enable
+for_window [class="Lxappearance"]                       floating enable
+for_window [class="scrcpy"]                             floating enable
+for_window [class="xdman-Main"]                         floating enable
+for_window [class="Nitrogen"]                           floating enable
+for_window [class="Pavucontrol"]                        floating enable
+for_window [class="qt5ct"]                              floating enable sticky enable border normal
+for_window [class="Qtconfig-qt4"]                       floating enable sticky enable border normal
+for_window [class="Xfce4-terminal"]                     floating enable
+for_window [class="mpv"]                                floating enable
+for_window [class="Lightdm-gtk-greeter-settings"]       floating enable
+for_window [class="Xfce4-taskmanager"]                  floating enable 
+for_window [class="Nm-connection-editor"]               floating enable 
+for_window [class="Yad" title="yad-calendar"]           floating enable
+for_window [class="Firefox"]                            gaps 30 
+for_window [class="TelegramDesktop"]                    resize set 400 1100 
+
+
+
+
+
+for_window [class="cantata"]  gaps 50
+for_window [class="osdlyrics"]  gaps 50
+
+
+for_window [title="cava"]        splitv
+for_window [title="ncmpcpp"]     splith
+for_window [title="kunst"]       splitv
+for_window [title="tuner"]       splith
+      

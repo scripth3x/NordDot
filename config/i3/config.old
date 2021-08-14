@@ -1,0 +1,450 @@
+
+#######################################################
+# basic
+#######################################################
+# mod
+set $mod Mod4
+
+# font
+font pango: System San Francisco Display 10
+
+# drag windows
+floating_modifier $mod
+
+# window configuration
+title_align left
+default_border normal
+default_floating_border normal
+hide_edge_borders smart
+focus_follows_mouse yes
+popup_during_fullscreen smart
+force_focus_wrapping workspace
+
+
+# Set window border size
+for_window [class=".*"] border pixel 2
+new_window 1pixel
+
+#######################################################
+# Gaps
+#######################################################
+
+
+# Set I3 Gaps
+gaps inner 8
+gaps outer 4
+gaps top 2
+gaps bottom 1
+#smart_gaps on
+
+# Reserve space for Polybar
+#gaps top 27
+
+# Gaps keybindigs
+
+# Resize gaps
+bindsym $mod+Shift+Ctrl+m exec ~/.config/i3/scripts/resize-gaps.sh -
+bindsym $mod+Shift+Ctrl+l exec ~/.config/i3/scripts/resize-gaps.sh +
+
+#######################################################
+# Startup
+#######################################################
+
+# System-usb-mount
+exec --no-startup-id udiskie -a -t -F &
+
+# Start Nitrogen
+exec --no-startup-id sleep 1; nitrogen --restore
+
+# Start Picom 
+#exec_always --no-startup-id picom --experimental-backends 
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf -b --experimental-backends
+
+# Start Pulseaudio
+exec --no-startup-id pulseaudio --start
+
+# Start Authentication
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+# Start Polybar
+exec_always  --no-startup-id /home/dt/.config/polybar/launch.sh
+
+# Start redshift
+exec --no-startup-id redshift
+
+# Start Num_Lock
+exec --no-startup-id numlockx on
+
+# Start Dunst
+exec --no-startup-id dunst 
+
+# Start Mpd
+exec_always --no-startup-id mpd
+
+# Start autolock
+exec --no-startup-id xautolock -time 10 -locker "i3lock-fancy --pixelate"
+
+# Start i3 focus last window
+exec --no-startup-id i3-focus-last
+
+# Start workspace names
+exec_always --no-startup-id exec i3-workspace-names-daemon --delimiter " | "
+
+# Power management
+exec_always xfce4-power-manager
+
+# Start wireless
+exec --no-startup-id nm-applet
+
+# Start Indicator-Cpufreq
+exec --no-startup-id indicator-cpufreq -f
+
+# Start Megasync
+#exec --no-startup-id megasync
+
+
+
+# Disable
+
+# Polybar (alternative to i3 bar)
+#bindsym $mod+p exec --no-startup-id $HOME/.config/polybar/scripts/toggle_up.sh  # Hide/Show Polybar
+
+
+#bindsym $mod+Shift+p exec --no-startup-id  $HOME/.config/polybar/scripts/restart_up.sh #Restart Polybar
+#bindsym $mod+Shift+t exec --no-startup-id $HOME/.config/polybar/scripts/restart_tray.sh_tray.sh  # Restart tray
+#bindsym $mod+t exec --no-startup-id $HOME/.config/polybar/scripts/toggle_tray.sh  # Hide/Show tray
+# exec systemctl start snapd.service
+# exec_always --no-startup-id xfce4-panel
+# exec_always --no-startup-id  bash -c "if xset q | grep -q 'Num Lock: *off'; then xdotool key Num_Lock; fi"
+#exec --no-startup-id conky -c ~/.config/conky/conkyrc -d
+#exec --no-startup-id i3-msg 'workspace 3; exec nautilus --no-desktop'
+#exec --no-startup-id i3-msg 'workspace 2; exec google-chrome; exec spotify'
+#exec --no-startup-id i3-msg 'workspace 1; exec netbeans'
+
+
+
+#######################################################
+# Color
+#######################################################
+
+set_from_resource $term_background background
+set_from_resource $term_foreground foreground
+set_from_resource $term_color0     color0
+set_from_resource $term_color1     color1
+set_from_resource $term_color2     color2
+set_from_resource $term_color3     color3
+set_from_resource $term_color4     color4
+set_from_resource $term_color5     color5
+set_from_resource $term_color6     color6
+set_from_resource $term_color7     color7
+set_from_resource $term_color8     color8
+set_from_resource $term_color9     color9
+set_from_resource $term_color10    color10
+set_from_resource $term_color11    color11
+set_from_resource $term_color12    color12
+set_from_resource $term_color13    color13
+set_from_resource $term_color14    color14
+set_from_resource $term_color15    color15
+
+#######################################################
+# Workspaces
+#######################################################
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "0"
+set $ws11 "F11"
+set $ws12 "F12"
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# move focused window and swap to that screen
+bindsym $mod+Control+1 move container to workspace $ws1; workspace $ws1
+bindsym $mod+Control+2 move container to workspace $ws2; workspace $ws2
+bindsym $mod+Control+3 move container to workspace $ws3; workspace $ws3
+bindsym $mod+Control+4 move container to workspace $ws4; workspace $ws4
+bindsym $mod+Control+5 move container to workspace $ws5; workspace $ws5
+bindsym $mod+Control+6 move container to workspace $ws6; workspace $ws6
+bindsym $mod+Control+7 move container to workspace $ws7; workspace $ws7
+bindsym $mod+Control+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+Control+9 move container to workspace $ws9; workspace $ws9
+bindsym $mod+Control+0 move container to workspace $ws10; workspace $ws10
+
+# Create new workspace
+bindsym $mod+n exec ~/.config/i3/scripts/new-workspace.sh
+
+# switch to workspace with urgent window automatically
+# for_window [urgent=latest] focus
+
+# next/previous workspace
+ bindsym $mod+Tab       workspace back_and_forth
+# bindsym $mod+Tab         workspace next
+# bindsym $mod+Shift+Tab   workspace prev
+
+#---------------- assign programs-------------##########################
+# open applications on specific workspaces
+
+#----Msg
+#assign [class="altus"] $ws12
+#assign [class="WebApp-Element0843"] $ws12
+#assign [class="TelegramDesktop"] $ws12
+#assign [class="Pidgin"] $ws12
+
+#----Email
+#assign [class="WebApp-Gmail5939"] $ws11  
+#assign [class="WebApp-Gmaileduaccount4493"] $ws11
+#assign [class="WebApp-Gmailtree1860"] $ws11
+
+#----chess
+#assign [class="WebApp-WebApp-Chesscom0305"] $ws11
+#assign [class="WebApp-Lichess1179"] $ws11
+
+#----anyn-net 
+assign [class="WebApp-ZeroNet8269"] $ws10
+assign [class="WebApp-FreeNet1934"] $ws10
+
+#----SocialNetwork
+assign [class="WebApp-Facebookcom4486"] $ws9
+assign [class="WebApp-mastodon6650"] $ws9
+assign [class="WebApp-Reddit4508"] $ws9
+
+#---Art
+assign [class="WebApp-Deviantart3723"] $ws8
+assign [class="WebApp-Instagram5692"] $ws8
+
+#---News
+assign [class="Com.gitlab.newsflash"] $ws7
+
+
+#---Media
+assign [class="FreeTube"] $ws6
+assign [class="mpv"] $ws6
+assign [class="Cantata"] $ws6
+
+#---Tools
+assign [class="scrcpy"] $ws5
+assign [class="WebApp-Windy8558"] $ws5
+assign [class="stacer"] $ws5
+
+#---Downloads
+assign [class=Tixati|Nicotine|xdman-Main] $ws4
+
+#---Browser
+assign [class=Firefox|Brave-browser] $ws2
+
+
+###########################################################"""""""
+#testing
+
+
+#for_window [class="Pcmanfm"] floating enable
+#for_window [class="Pcmanfm"] resize set 720 280
+#for_window [class="Pcmanfm"] move position center
+
+####################################################################"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#######################################################
+# keybindings
+#######################################################
+
+#Control music
+bindsym $mod+Ctrl+m exec kitty -e ncmpcpp
+bindsym $mod+F9 exec --no-startup-id mpc play
+bindsym $mod+F10 exec --no-startup-id mpc pause
+
+# Start pavu
+bindsym $mod+Shift+v exec pavucontrol
+
+#Amixer
+bindsym $mod+F3 exec amixer set Master 5%+
+bindsym $mod+F2 exec amixer set Master 5%-
+bindsym $mod+F1 exec amixer set Master toggle 
+
+# Screenshots
+bindsym --release Print exec "scrot -m $HOME/Pictures/Screenshot\ from\ %Y-%m-%d\ %H-%M-%S.png"
+bindsym --release Shift+Print exec "maim -s $HOME/Pictures/Screenshot\ from\ $(date +%Y-%m-%d)\ $(date +%H-%M-%S).png"
+bindsym --release Mod1+Print exec "scrot -u $HOME/Pictures/Screenshot\ from\ %Y-%m-%d\ %H-%M-%S.png"
+bindsym --release Ctrl+Shift+Print exec "maim -s | xclip -selection clipboard -t image/png"
+
+# Program launching
+bindsym $mod+o exec scrcpy
+bindsym $mod+Shift+o exec /home/dt/Documents/Appimage/Gnirehtet/gnirehtet autorun
+bindsym $mod+Return exec kitty
+bindsym $mod+Shift+b exec brave-browser
+bindsym $mod+Shift+f exec firejail firefox 
+bindsym Print exec screenshot
+bindsym $mod+d exec  rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/scripts/rofi/launcher.rasi
+bindsym $mod+Shift+y exec pcmanfm
+bindsym $mod+Shift+d exec jgmenu_run
+
+#bindsym $mod+Shift+d exec dmenu_run
+#bindsym $mod+Mod1+r exec kitty -e ranger
+#bindsym $mod+t exec kitty -e htop
+#bindsym $mod+t exec kitty -e ncmpcpp
+#bindsym $mod+t exec kitty -e calcurse
+
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# Launch lockscreen
+bindsym $mod+Shift+Delete  exec /home/dt/.config/i3/scripts/i3lock/i3lock-fancy
+
+
+### Basic keybindings
+
+# Keys
+exec_always xmodmap -e "clear lock" #disable caps lock switch
+exec_always xmodmap -e "keysym Caps_Lock = Escape" #set caps_lock as escape
+
+# reload the configuration file
+bindsym $mod+ctrl+r reload
+
+# restart i3 inplace
+bindsym $mod+Shift+r restart
+
+# exit i3
+bindsym $mod+Shift+e exec /home/dt/.config/i3/scripts/exit_menu
+
+# close window
+bindsym $mod+Shift+c kill 
+
+# sticky window
+bindsym $mod+Shift+s sticky toggle
+
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+#Window Splitting
+bindsym $mod+b split h
+bindsym $mod+v split v
+bindsym $mod+f fullscreen
+
+# change container layout
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+
+#######################################################
+# resize window-
+#######################################################
+# resize mode
+bindsym $mod+r mode "resize"
+
+
+# Same bindings, but for the arrow keys
+bindsym $mod+Shift+Ctrl+Left resize shrink height 5 px or 5 ppt
+bindsym $mod+Shift+Ctrl+Down resize grow width 5 px or 5 ppt
+bindsym $mod+Shift+Ctrl+Up resize shrink width 5 px or 5 ppt
+bindsym $mod+Shift+Ctrl+Right resize grow height 5 px or 5 ppt
+
+# same bindings, but for the arrow keys
+bindsym $mod+Ctrl+Left        resize shrink width 1 px or 1 ppt
+bindsym $mod+Ctrl+Down        resize grow height 1 px or 1 ppt
+bindsym $mod+Ctrl+Up          resize shrink height 1 px or 1 ppt
+bindsym $mod+Ctrl+Right       resize grow width 1 px or 1 ppt
+
+
+#######################################################
+                    #FLOATING MODE 
+#######################################################
+
+
+# Gimp
+for_window [class="^Gimp$" title="^GNU Image Manipulation Program$"] floating disabled
+for_window [class="^Gimp$" title=" ? GIMP$"] floating disabled
+for_window [class="^Gimp$" title="Tool Options$"] floating enable
+for_window [class="^Gimp$" title="^Quit GIMP$"] floating enable
+
+
+
+# Other floating mode
+for_window [class="Xfce4-panel"] floating enable
+for_window [class="Tilda"] floating enable border pixel 0 enable sticky
+for_window [title="alsamixer"] floating enable border pixel 1
+for_window [class="Clipgrab"] floating enable
+for_window [Class="Gdebi-gtk"] floating enable
+for_window [class="ark"] floating enable border normal
+for_window [title="i3_help"] floating enable sticky enable border normal
+for_window [class="Lightdm-settings"] floating enable
+for_window [class="Lxappearance"] floating enable sticky enable border normal
+for_window [class="scrcpy"] floating enable
+for_window [class="xdman-Main"] floating enable border 0
+for_window [class="Nitrogen"] floating enable sticky enable border normal
+for_window [class="Pavucontrol"] floating enable
+for_window [class="qt5ct"] floating enable sticky enable border normal
+for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
+for_window [class="Xfburn"] floating enable
+for_window [class="Xfce4-terminal"] floating enable, border none
+for_window [title="win7"] floating enable, border none
+for_window [class="Yad" title="yad-calendar"] floating enable
+for_window [title="Sign in - Google Accounts - Google Chrome"] floating enable 
+for_window [class="mpv"] floating enable
+for_window [class="Thunar"] floating enable
+for_window [class="Lightdm-gtk-greeter-settings"] floating enable
+for_window [class="Xfce4-taskmanager"] floating enable 
+for_window [class="Mainwindow.py"] floating enable 
+for_window [class="Nm-connection-editor"] floating enable 
+for_window [class="firefox"] floating enable
+
