@@ -1,0 +1,1439 @@
+Aug 08 15:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 15:19 : config: option 'device' on line 13 was not recognized
+Aug 08 15:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 15:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 15:19 : client: [0] opened from 127.0.0.1:47052
+Aug 08 15:19 : client: [1] opened from 127.0.0.1:47054
+Aug 08 15:19 : client: [2] opened from 127.0.0.1:47056
+Aug 08 15:19 : client: [3] opened from 127.0.0.1:47060
+Aug 08 15:19 : client: [4] opened from 127.0.0.1:47062
+Aug 08 15:19 : client: [5] opened from 127.0.0.1:47064
+Aug 08 15:19 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 08 15:19 : client: [6] opened from 127.0.0.1:47070
+Aug 08 15:19 : client: [7] opened from 127.0.0.1:47068
+Aug 08 15:19 : client: [8] opened from 127.0.0.1:47072
+Aug 08 15:19 : client: [9] opened from 127.0.0.1:47074
+Aug 08 15:19 : client: [9] closed
+Aug 08 15:20 : client: [10] opened from 127.0.0.1:47076
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [10] closed
+Aug 08 15:20 : client: [11] opened from 127.0.0.1:47082
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [11] closed
+Aug 08 15:20 : client: [12] opened from 127.0.0.1:47086
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [12] closed
+Aug 08 15:20 : client: [13] opened from 127.0.0.1:47090
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [13] closed
+Aug 08 15:20 : client: [14] opened from 127.0.0.1:47096
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [14] closed
+Aug 08 15:20 : client: [15] opened from 127.0.0.1:47100
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [15] closed
+Aug 08 15:20 : client: [16] opened from 127.0.0.1:47106
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [16] closed
+Aug 08 15:20 : client: [17] opened from 127.0.0.1:47110
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [17] closed
+Aug 08 15:20 : client: [18] opened from 127.0.0.1:47114
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [18] closed
+Aug 08 15:20 : client: [19] opened from 127.0.0.1:47118
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [19] closed
+Aug 08 15:20 : client: [20] opened from 127.0.0.1:47122
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [20] closed
+Aug 08 15:20 : client: [21] opened from 127.0.0.1:47126
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [21] closed
+Aug 08 15:20 : client: [22] opened from 127.0.0.1:47130
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [22] closed
+Aug 08 15:20 : client: [23] opened from 127.0.0.1:47134
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [23] closed
+Aug 08 15:20 : client: [24] opened from 127.0.0.1:47138
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [24] closed
+Aug 08 15:20 : client: [25] opened from 127.0.0.1:47144
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [25] closed
+Aug 08 15:20 : client: [26] opened from 127.0.0.1:47150
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [26] closed
+Aug 08 15:20 : client: [27] opened from 127.0.0.1:47156
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [27] closed
+Aug 08 15:20 : client: [28] opened from 127.0.0.1:47162
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [28] closed
+Aug 08 15:20 : client: [29] opened from 127.0.0.1:47166
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [29] closed
+Aug 08 15:20 : client: [30] opened from 127.0.0.1:47172
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [30] closed
+Aug 08 15:20 : client: [31] opened from 127.0.0.1:47176
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [31] closed
+Aug 08 15:20 : client: [32] opened from 127.0.0.1:47180
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [32] closed
+Aug 08 15:20 : client: [33] opened from 127.0.0.1:47184
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [33] closed
+Aug 08 15:20 : client: [34] opened from 127.0.0.1:47188
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [34] closed
+Aug 08 15:20 : client: [35] opened from 127.0.0.1:47192
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [35] closed
+Aug 08 15:20 : client: [36] opened from 127.0.0.1:47196
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [36] closed
+Aug 08 15:20 : client: [37] opened from 127.0.0.1:47202
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [37] closed
+Aug 08 15:20 : client: [38] opened from 127.0.0.1:47206
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [38] closed
+Aug 08 15:20 : client: [39] opened from 127.0.0.1:47210
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [39] closed
+Aug 08 15:20 : client: [40] opened from 127.0.0.1:47214
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [40] closed
+Aug 08 15:20 : client: [41] opened from 127.0.0.1:47218
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [41] closed
+Aug 08 15:20 : client: [42] opened from 127.0.0.1:47222
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [42] closed
+Aug 08 15:20 : client: [43] opened from 127.0.0.1:47226
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [43] closed
+Aug 08 15:20 : client: [44] opened from 127.0.0.1:47230
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [44] closed
+Aug 08 15:20 : client: [45] opened from 127.0.0.1:47234
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [45] closed
+Aug 08 15:20 : client: [46] opened from 127.0.0.1:47238
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [46] closed
+Aug 08 15:20 : client: [47] opened from 127.0.0.1:47242
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [47] closed
+Aug 08 15:20 : client: [48] opened from 127.0.0.1:47246
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [48] closed
+Aug 08 15:20 : client: [49] opened from 127.0.0.1:47250
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [49] closed
+Aug 08 15:20 : client: [50] opened from 127.0.0.1:47254
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [50] closed
+Aug 08 15:20 : client: [51] opened from 127.0.0.1:47258
+Aug 08 15:20 : client: Max connections reached
+Aug 08 15:20 : client: [51] closed
+Aug 08 15:23 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/08. Bad Girlfriend.mp3"
+Aug 08 15:23 : client: [7] closed
+Aug 08 15:23 : client: [5] closed
+Aug 08 15:23 : client: [4] closed
+Aug 08 15:23 : client: [3] closed
+Aug 08 15:23 : client: [2] closed
+Aug 08 15:23 : client: [1] closed
+Aug 08 15:23 : client: [0] closed
+Aug 08 15:23 : client: [6] closed
+Aug 08 15:23 : client: [52] opened from 127.0.0.1:47262
+Aug 08 15:23 : client: [53] opened from 127.0.0.1:47264
+Aug 08 15:23 : client: [54] opened from 127.0.0.1:47266
+Aug 08 15:23 : client: [52] closed
+Aug 08 15:23 : client: [54] closed
+Aug 08 15:23 : client: [53] closed
+Aug 08 15:23 : client: [55] opened from 127.0.0.1:47268
+Aug 08 15:23 : client: [56] opened from 127.0.0.1:47270
+Aug 08 15:23 : client: [57] opened from 127.0.0.1:47272
+Aug 08 15:23 : client: [58] opened from 127.0.0.1:47274
+Aug 08 15:23 : client: [55] closed
+Aug 08 15:23 : client: [56] closed
+Aug 08 15:23 : client: [58] closed
+Aug 08 15:23 : client: [57] closed
+Aug 08 15:23 : client: [59] opened from 127.0.0.1:47276
+Aug 08 15:23 : client: [59] closed
+Aug 08 15:23 : client: [60] opened from 127.0.0.1:47280
+Aug 08 15:23 : client: [60] closed
+Aug 08 15:23 : client: [61] opened from 127.0.0.1:47282
+Aug 08 15:23 : client: [61] closed
+Aug 08 15:23 : client: [62] opened from 127.0.0.1:47278
+Aug 08 15:23 : client: [63] opened from 127.0.0.1:47284
+Aug 08 15:23 : client: [62] closed
+Aug 08 15:23 : client: [64] opened from 127.0.0.1:47286
+Aug 08 15:23 : client: [64] closed
+Aug 08 15:23 : client: [65] opened from 127.0.0.1:47288
+Aug 08 15:23 : client: [63] closed
+Aug 08 15:23 : client: [65] closed
+Aug 08 15:23 : client: [66] opened from 127.0.0.1:47290
+Aug 08 15:23 : client: [67] opened from 127.0.0.1:47292
+Aug 08 15:23 : client: [67] closed
+Aug 08 15:23 : client: [66] closed
+Aug 08 15:23 : client: [68] opened from 127.0.0.1:47294
+Aug 08 15:23 : client: [68] closed
+Aug 08 15:23 : client: [69] opened from 127.0.0.1:47296
+Aug 08 15:23 : client: [69] closed
+Aug 08 15:23 : client: [70] opened from 127.0.0.1:47298
+Aug 08 15:23 : client: [70] closed
+Aug 08 15:23 : client: [71] opened from 127.0.0.1:47300
+Aug 08 15:23 : client: [71] closed
+Aug 08 15:23 : client: [72] opened from 127.0.0.1:47302
+Aug 08 15:23 : client: [72] closed
+Aug 08 15:23 : client: [73] opened from 127.0.0.1:47304
+Aug 08 15:23 : client: [73] closed
+Aug 08 15:23 : client: [74] opened from 127.0.0.1:47306
+Aug 08 15:23 : client: [74] closed
+Aug 08 15:23 : client: [75] opened from 127.0.0.1:47310
+Aug 08 15:23 : client: [75] closed
+Aug 08 15:23 : client: [76] opened from 127.0.0.1:47312
+Aug 08 15:23 : client: [77] opened from 127.0.0.1:47314
+Aug 08 15:23 : client: [78] opened from 127.0.0.1:47316
+Aug 08 15:23 : client: [76] closed
+Aug 08 15:23 : client: [78] closed
+Aug 08 15:23 : client: [77] closed
+Aug 08 15:23 : client: [79] opened from 127.0.0.1:47318
+Aug 08 15:23 : client: [79] closed
+Aug 08 15:23 : client: [80] opened from 127.0.0.1:47320
+Aug 08 15:23 : client: [80] closed
+Aug 08 15:23 : client: [81] opened from 127.0.0.1:47322
+Aug 08 15:23 : client: [82] opened from 127.0.0.1:47324
+Aug 08 15:23 : client: [82] closed
+Aug 08 15:23 : client: [81] closed
+Aug 08 15:23 : client: [83] opened from 127.0.0.1:47326
+Aug 08 15:23 : client: [83] closed
+Aug 08 15:23 : client: [84] opened from 127.0.0.1:47328
+Aug 08 15:23 : client: [85] opened from 127.0.0.1:47330
+Aug 08 15:23 : client: [86] opened from 127.0.0.1:47332
+Aug 08 15:23 : client: [87] opened from 127.0.0.1:47334
+Aug 08 15:23 : client: [88] opened from 127.0.0.1:47336
+Aug 08 15:23 : client: [89] opened from 127.0.0.1:47338
+Aug 08 15:23 : client: [90] opened from 127.0.0.1:47340
+Aug 08 15:23 : client: [91] opened from 127.0.0.1:47342
+Aug 08 15:25 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/09. Heavy.mp3"
+Aug 08 15:25 : client: [91] closed
+Aug 08 15:25 : client: [89] closed
+Aug 08 15:25 : client: [90] closed
+Aug 08 15:25 : client: [85] closed
+Aug 08 15:25 : client: [88] closed
+Aug 08 15:25 : client: [84] closed
+Aug 08 15:25 : client: [87] closed
+Aug 08 15:25 : client: [86] closed
+Aug 08 15:25 : client: [92] opened from 127.0.0.1:47344
+Aug 08 15:25 : client: [93] opened from 127.0.0.1:47346
+Aug 08 15:25 : client: [94] opened from 127.0.0.1:47348
+Aug 08 15:25 : client: [95] opened from 127.0.0.1:47350
+Aug 08 15:25 : client: [96] opened from 127.0.0.1:47352
+Aug 08 15:25 : client: [96] closed
+Aug 08 15:25 : client: [93] closed
+Aug 08 15:25 : client: [97] opened from 127.0.0.1:47354
+Aug 08 15:25 : client: [98] opened from 127.0.0.1:47358
+Aug 08 15:25 : client: [95] closed
+Aug 08 15:25 : client: [94] closed
+Aug 08 15:25 : client: [98] closed
+Aug 08 15:25 : client: [97] closed
+Aug 08 15:25 : client: [92] closed
+Aug 08 15:25 : client: [99] opened from 127.0.0.1:47360
+Aug 08 15:25 : client: [100] opened from 127.0.0.1:47362
+Aug 08 15:25 : client: [100] closed
+Aug 08 15:25 : client: [101] opened from 127.0.0.1:47364
+Aug 08 15:25 : client: [99] closed
+Aug 08 15:25 : client: [102] opened from 127.0.0.1:47366
+Aug 08 15:25 : client: [101] closed
+Aug 08 15:25 : client: [102] closed
+Aug 08 15:25 : client: [103] opened from 127.0.0.1:47368
+Aug 08 15:25 : client: [104] opened from 127.0.0.1:47370
+Aug 08 15:25 : client: [103] closed
+Aug 08 15:25 : client: [105] opened from 127.0.0.1:47372
+Aug 08 15:25 : client: [106] opened from 127.0.0.1:47374
+Aug 08 15:25 : client: [104] closed
+Aug 08 15:25 : client: [106] closed
+Aug 08 15:25 : client: [105] closed
+Aug 08 15:25 : client: [107] opened from 127.0.0.1:47376
+Aug 08 15:25 : client: [107] closed
+Aug 08 15:26 : client: [108] opened from 127.0.0.1:47378
+Aug 08 15:26 : client: [108] closed
+Aug 08 15:26 : client: [109] opened from 127.0.0.1:47380
+Aug 08 15:26 : client: [109] closed
+Aug 08 15:26 : client: [110] opened from 127.0.0.1:47382
+Aug 08 15:26 : client: [110] closed
+Aug 08 15:26 : client: [111] opened from 127.0.0.1:47384
+Aug 08 15:26 : client: [111] closed
+Aug 08 15:26 : client: [112] opened from 127.0.0.1:47386
+Aug 08 15:26 : client: [112] closed
+Aug 08 15:26 : client: [113] opened from 127.0.0.1:47388
+Aug 08 15:26 : client: [113] closed
+Aug 08 15:26 : client: [114] opened from 127.0.0.1:47390
+Aug 08 15:26 : client: [114] closed
+Aug 08 15:26 : client: [115] opened from 127.0.0.1:47394
+Aug 08 15:26 : client: [115] closed
+Aug 08 15:26 : client: [116] opened from 127.0.0.1:47396
+Aug 08 15:26 : client: [116] closed
+Aug 08 15:26 : client: [117] opened from 127.0.0.1:47400
+Aug 08 15:26 : client: [118] opened from 127.0.0.1:47402
+Aug 08 15:26 : client: [118] closed
+Aug 08 15:26 : client: [119] opened from 127.0.0.1:47404
+Aug 08 15:26 : client: [117] closed
+Aug 08 15:26 : client: [120] opened from 127.0.0.1:47406
+Aug 08 15:26 : client: [121] opened from 127.0.0.1:47398
+Aug 08 15:26 : client: [122] opened from 127.0.0.1:47408
+Aug 08 15:26 : client: [121] closed
+Aug 08 15:26 : client: [120] closed
+Aug 08 15:26 : client: [123] opened from 127.0.0.1:47410
+Aug 08 15:26 : client: [119] closed
+Aug 08 15:26 : client: [123] closed
+Aug 08 15:26 : client: [122] closed
+Aug 08 15:26 : client: [124] opened from 127.0.0.1:47412
+Aug 08 15:26 : client: [125] opened from 127.0.0.1:47414
+Aug 08 15:26 : client: [126] opened from 127.0.0.1:47418
+Aug 08 15:26 : client: [127] opened from 127.0.0.1:47420
+Aug 08 15:26 : client: [128] opened from 127.0.0.1:47422
+Aug 08 15:26 : client: [129] opened from 127.0.0.1:47426
+Aug 08 15:26 : client: [130] opened from 127.0.0.1:47430
+Aug 08 15:26 : client: [131] opened from 127.0.0.1:47434
+Aug 08 15:29 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/10. 2002.mp3"
+Aug 08 15:29 : client: [127] closed
+Aug 08 15:29 : client: [131] closed
+Aug 08 15:29 : client: [124] closed
+Aug 08 15:29 : client: [130] closed
+Aug 08 15:29 : client: [129] closed
+Aug 08 15:29 : client: [128] closed
+Aug 08 15:29 : client: [126] closed
+Aug 08 15:29 : client: [125] closed
+Aug 08 15:29 : client: [132] opened from 127.0.0.1:47436
+Aug 08 15:29 : client: [133] opened from 127.0.0.1:47438
+Aug 08 15:29 : client: [132] closed
+Aug 08 15:29 : client: [134] opened from 127.0.0.1:47440
+Aug 08 15:29 : client: [135] opened from 127.0.0.1:47442
+Aug 08 15:29 : client: [136] opened from 127.0.0.1:47444
+Aug 08 15:29 : client: [137] opened from 127.0.0.1:47446
+Aug 08 15:29 : client: [133] closed
+Aug 08 15:29 : client: [137] closed
+Aug 08 15:29 : client: [135] closed
+Aug 08 15:29 : client: [136] closed
+Aug 08 15:29 : client: [138] opened from 127.0.0.1:47448
+Aug 08 15:29 : client: [134] closed
+Aug 08 15:29 : client: [138] closed
+Aug 08 15:29 : client: [139] opened from 127.0.0.1:47450
+Aug 08 15:29 : client: [140] opened from 127.0.0.1:47452
+Aug 08 15:29 : client: [140] closed
+Aug 08 15:29 : client: [139] closed
+Aug 08 15:29 : client: [141] opened from 127.0.0.1:47454
+Aug 08 15:29 : client: [141] closed
+Aug 08 15:29 : client: [142] opened from 127.0.0.1:47456
+Aug 08 15:29 : client: [142] closed
+Aug 08 15:29 : client: [143] opened from 127.0.0.1:47460
+Aug 08 15:29 : client: [144] opened from 127.0.0.1:47464
+Aug 08 15:29 : client: [145] opened from 127.0.0.1:47466
+Aug 08 15:29 : client: [146] opened from 127.0.0.1:47468
+Aug 08 15:29 : client: [145] closed
+Aug 08 15:29 : client: [146] closed
+Aug 08 15:29 : client: [143] closed
+Aug 08 15:29 : client: [147] opened from 127.0.0.1:47470
+Aug 08 15:29 : client: [144] closed
+Aug 08 15:29 : client: [147] closed
+Aug 08 15:29 : client: [148] opened from 127.0.0.1:47472
+Aug 08 15:29 : client: [148] closed
+Aug 08 15:29 : client: [149] opened from 127.0.0.1:47474
+Aug 08 15:29 : client: [149] closed
+Aug 08 15:29 : client: [150] opened from 127.0.0.1:47476
+Aug 08 15:29 : client: [150] closed
+Aug 08 15:29 : client: [151] opened from 127.0.0.1:47478
+Aug 08 15:29 : client: [151] closed
+Aug 08 15:29 : client: [152] opened from 127.0.0.1:47482
+Aug 08 15:29 : client: [152] closed
+Aug 08 15:29 : client: [153] opened from 127.0.0.1:47484
+Aug 08 15:29 : client: [153] closed
+Aug 08 15:29 : client: [154] opened from 127.0.0.1:47486
+Aug 08 15:29 : client: [154] closed
+Aug 08 15:29 : client: [155] opened from 127.0.0.1:47488
+Aug 08 15:29 : client: [155] closed
+Aug 08 15:29 : client: [156] opened from 127.0.0.1:47490
+Aug 08 15:29 : client: [156] closed
+Aug 08 15:29 : client: [157] opened from 127.0.0.1:47492
+Aug 08 15:29 : client: [157] closed
+Aug 08 15:29 : client: [158] opened from 127.0.0.1:47494
+Aug 08 15:29 : client: [158] closed
+Aug 08 15:29 : client: [159] opened from 127.0.0.1:47496
+Aug 08 15:29 : client: [159] closed
+Aug 08 15:29 : client: [160] opened from 127.0.0.1:47498
+Aug 08 15:29 : client: [160] closed
+Aug 08 15:29 : client: [161] opened from 127.0.0.1:47500
+Aug 08 15:29 : client: [161] closed
+Aug 08 15:29 : client: [162] opened from 127.0.0.1:47502
+Aug 08 15:29 : client: [162] closed
+Aug 08 15:29 : client: [163] opened from 127.0.0.1:47504
+Aug 08 15:29 : client: [163] closed
+Aug 08 15:29 : client: [164] opened from 127.0.0.1:47506
+Aug 08 15:29 : client: [165] opened from 127.0.0.1:47508
+Aug 08 15:29 : client: [166] opened from 127.0.0.1:47510
+Aug 08 15:29 : client: [167] opened from 127.0.0.1:47514
+Aug 08 15:29 : client: [168] opened from 127.0.0.1:47516
+Aug 08 15:29 : client: [169] opened from 127.0.0.1:47518
+Aug 08 15:29 : client: [170] opened from 127.0.0.1:47520
+Aug 08 15:29 : client: [171] opened from 127.0.0.1:47522
+Aug 08 15:32 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/11. Can I Get Your Number.mp3"
+Aug 08 15:32 : client: [169] closed
+Aug 08 15:32 : client: [167] closed
+Aug 08 15:32 : client: [171] closed
+Aug 08 15:32 : client: [164] closed
+Aug 08 15:32 : client: [170] closed
+Aug 08 15:32 : client: [168] closed
+Aug 08 15:32 : client: [166] closed
+Aug 08 15:32 : client: [165] closed
+Aug 08 15:32 : client: [172] opened from 127.0.0.1:47526
+Aug 08 15:32 : client: [173] opened from 127.0.0.1:47528
+Aug 08 15:32 : client: [174] opened from 127.0.0.1:47530
+Aug 08 15:32 : client: [175] opened from 127.0.0.1:47524
+Aug 08 15:32 : client: [176] opened from 127.0.0.1:47532
+Aug 08 15:32 : client: [173] closed
+Aug 08 15:32 : client: [175] closed
+Aug 08 15:32 : client: [172] closed
+Aug 08 15:32 : client: [174] closed
+Aug 08 15:32 : client: [176] closed
+Aug 08 15:32 : client: [177] opened from 127.0.0.1:47534
+Aug 08 15:32 : client: [178] opened from 127.0.0.1:47536
+Aug 08 15:32 : client: [179] opened from 127.0.0.1:47538
+Aug 08 15:32 : client: [179] closed
+Aug 08 15:32 : client: [178] closed
+Aug 08 15:32 : client: [177] closed
+Aug 08 15:32 : client: [180] opened from 127.0.0.1:47542
+Aug 08 15:32 : client: [181] opened from 127.0.0.1:47544
+Aug 08 15:32 : client: [180] closed
+Aug 08 15:32 : client: [181] closed
+Aug 08 15:32 : client: [182] opened from 127.0.0.1:47548
+Aug 08 15:32 : client: [182] closed
+Aug 08 15:32 : client: [183] opened from 127.0.0.1:47550
+Aug 08 15:32 : client: [184] opened from 127.0.0.1:47552
+Aug 08 15:32 : client: [185] opened from 127.0.0.1:47554
+Aug 08 15:32 : client: [183] closed
+Aug 08 15:32 : client: [184] closed
+Aug 08 15:32 : client: [186] opened from 127.0.0.1:47556
+Aug 08 15:32 : client: [185] closed
+Aug 08 15:32 : client: [186] closed
+Aug 08 15:32 : client: [187] opened from 127.0.0.1:47558
+Aug 08 15:32 : client: [187] closed
+Aug 08 15:32 : client: [188] opened from 127.0.0.1:47560
+Aug 08 15:32 : client: [189] opened from 127.0.0.1:47562
+Aug 08 15:32 : client: [188] closed
+Aug 08 15:32 : client: [189] closed
+Aug 08 15:32 : client: [190] opened from 127.0.0.1:47564
+Aug 08 15:32 : client: [190] closed
+Aug 08 15:32 : client: [191] opened from 127.0.0.1:47566
+Aug 08 15:32 : client: [191] closed
+Aug 08 15:32 : client: [192] opened from 127.0.0.1:47568
+Aug 08 15:32 : client: [192] closed
+Aug 08 15:32 : client: [193] opened from 127.0.0.1:47570
+Aug 08 15:32 : client: [193] closed
+Aug 08 15:32 : client: [194] opened from 127.0.0.1:47572
+Aug 08 15:32 : client: [194] closed
+Aug 08 15:32 : client: [195] opened from 127.0.0.1:47574
+Aug 08 15:32 : client: [195] closed
+Aug 08 15:32 : client: [196] opened from 127.0.0.1:47576
+Aug 08 15:32 : client: [196] closed
+Aug 08 15:32 : client: [197] opened from 127.0.0.1:47578
+Aug 08 15:32 : client: [197] closed
+Aug 08 15:32 : client: [198] opened from 127.0.0.1:47582
+Aug 08 15:32 : client: [199] opened from 127.0.0.1:47584
+Aug 08 15:32 : client: [198] closed
+Aug 08 15:32 : client: [200] opened from 127.0.0.1:47586
+Aug 08 15:32 : client: [201] opened from 127.0.0.1:47588
+Aug 08 15:32 : client: [199] closed
+Aug 08 15:32 : client: [202] opened from 127.0.0.1:47590
+Aug 08 15:32 : client: [201] closed
+Aug 08 15:32 : client: [200] closed
+Aug 08 15:32 : client: [202] closed
+Aug 08 15:32 : client: [203] opened from 127.0.0.1:47592
+Aug 08 15:32 : client: [203] closed
+Aug 08 15:32 : client: [204] opened from 127.0.0.1:47594
+Aug 08 15:32 : client: [205] opened from 127.0.0.1:47596
+Aug 08 15:32 : client: [206] opened from 127.0.0.1:47598
+Aug 08 15:32 : client: [207] opened from 127.0.0.1:47600
+Aug 08 15:32 : client: [208] opened from 127.0.0.1:47602
+Aug 08 15:32 : client: [209] opened from 127.0.0.1:47604
+Aug 08 15:32 : client: [210] opened from 127.0.0.1:47606
+Aug 08 15:32 : client: [211] opened from 127.0.0.1:47608
+Aug 08 15:32 : client: [8] closed
+Aug 08 15:32 : client: [212] opened from 127.0.0.1:47610
+Aug 08 15:32 : client: [213] opened from 127.0.0.1:47612
+Aug 08 15:36 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/12. Machine.mp3"
+Aug 08 15:36 : client: [211] closed
+Aug 08 15:36 : client: [210] closed
+Aug 08 15:36 : client: [209] closed
+Aug 08 15:36 : client: [208] closed
+Aug 08 15:36 : client: [207] closed
+Aug 08 15:36 : client: [206] closed
+Aug 08 15:36 : client: [205] closed
+Aug 08 15:36 : client: [204] closed
+Aug 08 15:36 : client: [214] opened from 127.0.0.1:47614
+Aug 08 15:36 : client: [214] closed
+Aug 08 15:36 : client: [215] opened from 127.0.0.1:47618
+Aug 08 15:36 : client: [216] opened from 127.0.0.1:47620
+Aug 08 15:36 : client: [217] opened from 127.0.0.1:47622
+Aug 08 15:36 : client: [215] closed
+Aug 08 15:36 : client: [218] opened from 127.0.0.1:47624
+Aug 08 15:36 : client: [218] closed
+Aug 08 15:36 : client: [219] opened from 127.0.0.1:47626
+Aug 08 15:36 : client: [220] opened from 127.0.0.1:47628
+Aug 08 15:36 : client: [217] closed
+Aug 08 15:36 : client: [216] closed
+Aug 08 15:36 : client: [220] closed
+Aug 08 15:36 : client: [221] opened from 127.0.0.1:47630
+Aug 08 15:36 : client: [219] closed
+Aug 08 15:36 : client: [221] closed
+Aug 08 15:36 : client: [222] opened from 127.0.0.1:47632
+Aug 08 15:36 : client: [222] closed
+Aug 08 15:36 : client: [223] opened from 127.0.0.1:47634
+Aug 08 15:36 : client: [224] opened from 127.0.0.1:47636
+Aug 08 15:36 : client: [225] opened from 127.0.0.1:47638
+Aug 08 15:36 : client: [224] closed
+Aug 08 15:36 : client: [223] closed
+Aug 08 15:36 : client: [226] opened from 127.0.0.1:47640
+Aug 08 15:36 : client: [225] closed
+Aug 08 15:36 : client: [226] closed
+Aug 08 15:36 : client: [227] opened from 127.0.0.1:47644
+Aug 08 15:36 : client: [228] opened from 127.0.0.1:47642
+Aug 08 15:36 : client: [228] closed
+Aug 08 15:36 : client: [227] closed
+Aug 08 15:36 : client: [229] opened from 127.0.0.1:47646
+Aug 08 15:36 : client: [229] closed
+Aug 08 15:36 : client: [230] opened from 127.0.0.1:47648
+Aug 08 15:36 : client: [230] closed
+Aug 08 15:36 : client: [231] opened from 127.0.0.1:47650
+Aug 08 15:36 : client: [232] opened from 127.0.0.1:47652
+Aug 08 15:36 : client: [232] closed
+Aug 08 15:36 : client: [231] closed
+Aug 08 15:36 : client: [233] opened from 127.0.0.1:47654
+Aug 08 15:36 : client: [233] closed
+Aug 08 15:36 : client: [234] opened from 127.0.0.1:47656
+Aug 08 15:36 : client: [234] closed
+Aug 08 15:36 : client: [235] opened from 127.0.0.1:47658
+Aug 08 15:36 : client: [235] closed
+Aug 08 15:36 : client: [236] opened from 127.0.0.1:47662
+Aug 08 15:36 : client: [236] closed
+Aug 08 15:36 : client: [237] opened from 127.0.0.1:47664
+Aug 08 15:36 : client: [237] closed
+Aug 08 15:36 : client: [238] opened from 127.0.0.1:47666
+Aug 08 15:36 : client: [238] closed
+Aug 08 15:36 : client: [239] opened from 127.0.0.1:47668
+Aug 08 15:36 : client: [240] opened from 127.0.0.1:47670
+Aug 08 15:36 : client: [240] closed
+Aug 08 15:36 : client: [241] opened from 127.0.0.1:47674
+Aug 08 15:36 : client: [242] opened from 127.0.0.1:47672
+Aug 08 15:36 : client: [242] closed
+Aug 08 15:36 : client: [243] opened from 127.0.0.1:47676
+Aug 08 15:36 : client: [243] closed
+Aug 08 15:36 : client: [241] closed
+Aug 08 15:36 : client: [239] closed
+Aug 08 15:36 : client: [244] opened from 127.0.0.1:47680
+Aug 08 15:36 : client: [245] opened from 127.0.0.1:47682
+Aug 08 15:36 : client: [244] closed
+Aug 08 15:36 : client: [245] closed
+Aug 08 15:36 : client: [246] opened from 127.0.0.1:47684
+Aug 08 15:36 : client: [247] opened from 127.0.0.1:47686
+Aug 08 15:36 : client: [248] opened from 127.0.0.1:47688
+Aug 08 15:36 : client: [249] opened from 127.0.0.1:47690
+Aug 08 15:36 : client: [250] opened from 127.0.0.1:47692
+Aug 08 15:36 : client: [251] opened from 127.0.0.1:47694
+Aug 08 15:36 : client: [252] opened from 127.0.0.1:47696
+Aug 08 15:36 : client: [253] opened from 127.0.0.1:47698
+Aug 08 15:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 15:40 : config: option 'device' on line 13 was not recognized
+Aug 08 15:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 15:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 15:40 : client: [0] opened from 127.0.0.1:35400
+Aug 08 15:40 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 08 15:40 : client: [1] opened from 127.0.0.1:35402
+Aug 08 15:44 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/13. Breathing Fire.mp3"
+Aug 08 15:47 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/14. Some People.mp3"
+Aug 08 15:51 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/15. Used to Love You.mp3"
+Aug 08 15:55 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/16. Peak.mp3"
+Aug 08 15:59 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/17. Rockabye (feat. Sean Paul & Anne-Marie).mp3"
+Aug 08 16:02 : player: played "Ariana Grande/positions/1. shut up.mp3"
+Aug 08 16:03 : client: [2] opened from 127.0.0.1:35404
+Aug 08 16:03 : client: [2] closed
+Aug 08 16:06 : player: played "Ariana Grande/positions/3. motive (feat. Doja Cat).mp3"
+Aug 08 16:09 : player: played "Ariana Grande/positions/4. just like magic.mp3"
+Aug 08 16:13 : player: played "Ariana Grande/positions/5. off the table (feat. The Weeknd).mp3"
+Aug 08 16:16 : player: played "Ariana Grande/positions/6. six thirty.mp3"
+Aug 08 16:19 : player: played "Ariana Grande/positions/7. safety net (feat. Ty Dolla $ign).mp3"
+Aug 08 16:22 : player: played "Ariana Grande/positions/8. my hair.mp3"
+Aug 08 16:25 : player: played "Ariana Grande/positions/9. nasty.mp3"
+Aug 08 16:27 : player: played "Ariana Grande/positions/10. west side.mp3"
+Aug 08 16:30 : player: played "Ariana Grande/positions/11. love language.mp3"
+Aug 08 16:33 : player: played "Ariana Grande/positions/12. positions.mp3"
+Aug 08 16:36 : player: played "Ariana Grande/positions/13. obvious.mp3"
+Aug 08 16:39 : player: played "Ariana Grande/positions/14. pov.mp3"
+Aug 08 16:43 : player: played "Aurora/A Different Kind Of Human – Step 2/01 The River.mp3"
+Aug 08 16:46 : player: played "Aurora/A Different Kind Of Human – Step 2/02 Animal.mp3"
+Aug 08 16:50 : player: played "Aurora/A Different Kind Of Human – Step 2/03 Dance On The Moon.mp3"
+Aug 08 16:53 : player: played "Aurora/A Different Kind Of Human – Step 2/04 Daydreamer.mp3"
+Aug 08 16:56 : player: played "Aurora/A Different Kind Of Human – Step 2/05 Hunger.mp3"
+Aug 08 17:01 : player: played "Aurora/A Different Kind Of Human – Step 2/06 Soulless Creatures.mp3"
+Aug 08 17:05 : player: played "Aurora/A Different Kind Of Human – Step 2/07 In Bottles.mp3"
+Aug 08 17:09 : player: played "Aurora/A Different Kind Of Human – Step 2/08 A Different Kind Of Human.mp3"
+Aug 08 17:12 : player: played "Aurora/A Different Kind Of Human – Step 2/09 Apple Tree.mp3"
+Aug 08 17:17 : player: played "Aurora/A Different Kind Of Human – Step 2/10 The Seed.mp3"
+Aug 08 17:19 : player: played "Aurora/A Different Kind Of Human – Step 2/11 Mothership.mp3"
+Aug 08 17:23 : player: played "Aurora/All My Demons Greeting Me As A Friend/01 Runaway.mp3"
+Aug 08 17:27 : player: played "Aurora/All My Demons Greeting Me As A Friend/02 Conqueror.mp3"
+Aug 08 17:30 : player: played "Aurora/All My Demons Greeting Me As A Friend/03 Running With The Wolves.mp3"
+Aug 08 17:34 : player: played "Aurora/All My Demons Greeting Me As A Friend/04 Lucky.mp3"
+Aug 08 17:38 : player: played "Aurora/All My Demons Greeting Me As A Friend/05 Winter Bird.mp3"
+Aug 08 17:42 : player: played "Aurora/All My Demons Greeting Me As A Friend/06 I Went Too Far.mp3"
+Aug 08 17:46 : player: played "Aurora/All My Demons Greeting Me As A Friend/07 Through The Eyes Of A Child.mp3"
+Aug 08 17:50 : player: played "Aurora/All My Demons Greeting Me As A Friend/08 Warrior.mp3"
+Aug 08 17:53 : player: played "Aurora/All My Demons Greeting Me As A Friend/09 Murder Song (5, 4, 3, 2, 1).mp3"
+Aug 08 17:57 : player: played "Aurora/All My Demons Greeting Me As A Friend/10 Home.mp3"
+Aug 08 18:01 : player: played "Aurora/All My Demons Greeting Me As A Friend/11 Under The Water.mp3"
+Aug 08 18:06 : player: played "Aurora/All My Demons Greeting Me As A Friend/12 Black Water Lilies.mp3"
+Aug 08 18:09 : player: played "Aurora/All My Demons Greeting Me As A Friend/13 Half The World Away.mp3"
+Aug 08 18:13 : player: played "Aurora/All My Demons Greeting Me As A Friend/14 Murder Song (5, 4, 3, 2, 1) (Acoustic).mp3"
+Aug 08 18:16 : player: played "Aurora/All My Demons Greeting Me As A Friend/15 Nature Boy (Acoustic).mp3"
+Aug 08 18:20 : player: played "Aurora/All My Demons Greeting Me As A Friend/16 Wisdom Cries.mp3"
+Aug 08 18:24 : player: played "Aurora/All My Demons Greeting Me As A Friend/17 Running With The Wolves (Pablo Nouvelle Remix).mp3"
+Aug 08 18:28 : player: played "Aurora/FOR THE HUMANS WHO TAKE LONG WALKS IN THE FOREST/01 Runaway.mp3"
+Aug 08 18:32 : player: played "Aurora/FOR THE HUMANS WHO TAKE LONG WALKS IN THE FOREST/02 Little Boy in the Grass.mp3"
+Aug 08 18:36 : player: played "Aurora/FOR THE HUMANS WHO TAKE LONG WALKS IN THE FOREST/03 Home.mp3"
+Aug 08 18:40 : player: played "Aurora/FOR THE HUMANS WHO TAKE LONG WALKS IN THE FOREST/04 Winter Bird.mp3"
+Aug 08 18:43 : player: played "Aurora/FOR THE HUMANS WHO TAKE LONG WALKS IN THE FOREST/05 Running with the Wolves.mp3"
+Aug 08 18:48 : player: played "Aurora/FOR THE HUMANS WHO TAKE LONG WALKS IN THE FOREST/06 The Seed.mp3"
+Aug 08 18:50 : client: [3] opened from 127.0.0.1:35416
+Aug 08 18:50 : client: [3] closed
+Aug 09 11:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 09 11:07 : config: option 'device' on line 13 was not recognized
+Aug 09 11:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 09 11:07 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 09 11:07 : client: [0] opened from 127.0.0.1:55928
+Aug 09 11:07 : client: [1] opened from 127.0.0.1:55930
+Aug 09 11:47 : client: [2] opened from 127.0.0.1:55948
+Aug 09 11:47 : client: [3] opened from 127.0.0.1:55950
+Aug 09 11:47 : exception: Unsupported URI scheme
+Aug 09 11:47 : exception: Failed to open '/home/dt/.mpd/playlists/[Radio Streams].m3u': No such file or directory
+Aug 09 11:47 : exception: No such playlist
+Aug 09 11:48 : player: played "Aurora/Infections Of A Different Kind – Step 1/01. Queendom.mp3"
+Aug 09 11:48 : client: [3] closed
+Aug 09 11:48 : client: [2] closed
+Aug 09 11:50 : client: [4] opened from 127.0.0.1:55954
+Aug 09 11:50 : client: [5] opened from 127.0.0.1:55956
+Aug 09 11:50 : exception: Unsupported URI scheme
+Aug 09 11:50 : exception: Failed to open '/home/dt/.mpd/playlists/[Radio Streams].m3u': No such file or directory
+Aug 09 11:50 : exception: No such playlist
+Aug 09 11:50 : client: [5] closed
+Aug 09 11:50 : client: [4] closed
+Aug 09 11:51 : client: [6] opened from 127.0.0.1:55958
+Aug 09 11:51 : client: [7] opened from 127.0.0.1:55960
+Aug 09 11:51 : exception: Unsupported URI scheme
+Aug 09 11:51 : exception: Failed to open '/home/dt/.mpd/playlists/[Radio Streams].m3u': No such file or directory
+Aug 09 11:51 : exception: No such playlist
+Aug 09 11:51 : client: [0] closed
+Aug 09 11:51 : client: [8] opened from 127.0.0.1:55962
+Aug 09 11:51 : client: [9] opened from 127.0.0.1:55964
+Aug 09 11:51 : client: [7] closed
+Aug 09 11:51 : client: [6] closed
+Aug 09 11:52 : client: [10] opened from 127.0.0.1:55966
+Aug 09 11:52 : client: [11] opened from 127.0.0.1:55970
+Aug 09 11:52 : exception: Unsupported URI scheme
+Aug 09 11:52 : exception: Failed to open '/home/dt/.mpd/playlists/[Radio Streams].m3u': No such file or directory
+Aug 09 11:52 : exception: No such playlist
+Aug 09 11:56 : client: [12] opened from 127.0.0.1:55972
+Aug 09 11:56 : client: [12] closed
+Aug 09 11:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 09 11:56 : client: [13] opened from 127.0.0.1:55974
+Aug 09 11:56 : client: [13] closed
+Aug 09 14:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 09 14:58 : config: option 'device' on line 13 was not recognized
+Aug 09 14:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 09 14:58 : client: [0] opened from 127.0.0.1:46002
+Aug 09 14:58 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 09 14:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 09 14:58 : client: [1] opened from 127.0.0.1:46004
+Aug 09 14:58 : client: [2] opened from 127.0.0.1:46006
+Aug 09 14:58 : client: [2] closed
+Aug 10 10:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 10:04 : config: option 'device' on line 13 was not recognized
+Aug 10 10:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 10:04 : client: [0] opened from 127.0.0.1:60886
+Aug 10 10:04 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 10 10:04 : client: [1] opened from 127.0.0.1:60888
+Aug 11 19:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 19:53 : config: option 'device' on line 13 was not recognized
+Aug 11 19:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 19:53 : client: [0] opened from 127.0.0.1:39230
+Aug 11 19:53 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 11 19:53 : client: [1] opened from 127.0.0.1:39232
+Aug 11 19:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 19:53 : client: [1] closed
+Aug 11 19:53 : client: [2] opened from 127.0.0.1:39234
+Aug 11 19:53 : client: [2] closed
+Aug 11 20:03 : client: [3] opened from 127.0.0.1:39238
+Aug 11 20:07 : player: played "Emika/DREI/01 - Battles.mp3"
+Aug 11 20:12 : player: played "Emika/DREI/02 - My Heart Bleeds Melody.mp3"
+Aug 11 20:14 : player: played "Emika/DREI/03 - Miracles (Prelude).mp3"
+Aug 11 20:17 : player: played "Emika/DREI/04 - Miracles.mp3"
+Aug 11 20:21 : player: played "Emika/DREI/05 - What's the Cure.mp3"
+Aug 11 20:26 : player: played "Emika/DREI/06 - Without Expression.mp3"
+Aug 11 20:30 : player: played "Emika/DREI/07 - Rache.mp3"
+Aug 11 20:34 : player: played "Emika/DREI/08 - Serious Trouble.mp3"
+Aug 11 20:38 : player: played "Emika/DREI/09 - Destiny Killer.mp3"
+Aug 11 20:42 : player: played "Emika/DREI/10 - Take Me for a Ride.mp3"
+Aug 11 20:44 : player: played "Emika/Dva/01 - Hush (Interlude).mp3"
+Aug 11 20:48 : player: played "Emika/Dva/02 - Young Minds.mp3"
+Aug 11 20:50 : client: [3] closed
+Aug 11 20:51 : client: [4] opened from 127.0.0.1:39282
+Aug 11 20:52 : player: played "Emika/Dva/03 - She Beats.mp3"
+Aug 11 20:56 : player: played "Emika/Dva/04 - Filters.mp3"
+Aug 11 20:57 : client: [5] opened from 127.0.0.1:39288
+Aug 11 20:57 : client: [5] closed
+Aug 11 23:11 : client: [4] closed
+Aug 12 12:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 12 12:07 : config: option 'device' on line 13 was not recognized
+Aug 12 12:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 12 12:07 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 12 12:07 : client: [0] opened from 127.0.0.1:44504
+Aug 12 15:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 12 15:05 : config: option 'device' on line 13 was not recognized
+Aug 12 15:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 12 15:05 : client: [0] opened from 127.0.0.1:50670
+Aug 12 15:05 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 12 15:06 : client: [1] opened from 127.0.0.1:50672
+Aug 12 19:33 : client: [1] closed
+Aug 12 19:33 : client: [2] opened from 127.0.0.1:50736
+Aug 12 19:33 : client: [3] opened from 127.0.0.1:50738
+Aug 12 19:37 : client: [3] closed
+Aug 12 19:37 : client: [4] opened from 127.0.0.1:50740
+Aug 12 19:37 : client: [5] opened from 127.0.0.1:50742
+Aug 12 20:44 : client: [6] opened from 127.0.0.1:50756
+Aug 12 20:44 : client: [7] opened from 127.0.0.1:50758
+Aug 12 20:44 : exception: Unsupported URI scheme
+Aug 12 20:45 : exception: Failed to open '/home/dt/.mpd/playlists/[Radio Streams].m3u': No such file or directory
+Aug 12 20:45 : exception: No such playlist
+Aug 12 20:48 : player: played "Emika/Dva/05 - After the Fall.mp3"
+Aug 12 20:48 : client: [7] closed
+Aug 12 20:48 : client: [6] closed
+Aug 12 20:48 : client: [8] opened from 127.0.0.1:50760
+Aug 12 20:48 : client: [9] opened from 127.0.0.1:50762
+Aug 12 20:48 : exception: Unsupported URI scheme
+Aug 12 20:49 : exception: Failed to open '/home/dt/.mpd/playlists/[Radio Streams].m3u': No such file or directory
+Aug 12 20:49 : exception: No such playlist
+Aug 12 20:49 : client: [9] closed
+Aug 12 20:49 : client: [8] closed
+Aug 12 20:49 : client: [10] opened from 127.0.0.1:50764
+Aug 12 20:49 : client: [11] opened from 127.0.0.1:50766
+Aug 12 20:49 : exception: Unsupported URI scheme
+Aug 12 20:49 : exception: Failed to open '/home/dt/.mpd/playlists/[Radio Streams].m3u': No such file or directory
+Aug 12 20:49 : exception: No such playlist
+Aug 12 20:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 12 20:52 : player: played "Alicia Keys/ALICIA/1. Truth Without Love.mp3"
+Aug 12 20:56 : client: [12] opened from 127.0.0.1:50770
+Aug 12 20:56 : client: [12] closed
+Aug 12 21:50 : player: played "Alicia Keys/ALICIA/2. Time Machine.mp3"
+Aug 12 21:50 : client: [11] closed
+Aug 12 21:50 : client: [10] closed
+Aug 13 11:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 11:07 : config: option 'device' on line 13 was not recognized
+Aug 13 11:07 : client: [0] opened from 127.0.0.1:54208
+Aug 13 11:07 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 13 11:07 : client: [1] opened from 127.0.0.1:54210
+Aug 13 12:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 12:06 : config: option 'device' on line 13 was not recognized
+Aug 13 12:06 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 13 12:06 : client: [0] opened from 127.0.0.1:41814
+Aug 13 16:38 : client: [1] opened from 127.0.0.1:41818
+Aug 13 16:38 : client: [1] closed
+Aug 13 16:38 : client: [2] opened from 127.0.0.1:41820
+Aug 13 16:38 : client: [2] closed
+Aug 13 16:38 : client: [3] opened from 127.0.0.1:41822
+Aug 13 16:38 : client: [3] closed
+Aug 13 16:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 16:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 16:38 : client: [4] opened from 127.0.0.1:41824
+Aug 13 16:38 : client: [4] closed
+Aug 13 16:39 : client: [5] opened from 127.0.0.1:41826
+Aug 13 16:39 : client: [5] closed
+Aug 13 16:39 : client: [6] opened from 127.0.0.1:41828
+Aug 13 16:39 : client: [6] closed
+Aug 13 16:42 : client: [7] opened from 127.0.0.1:41830
+Aug 13 16:42 : client: [7] closed
+Aug 13 16:43 : client: [8] opened from 127.0.0.1:41832
+Aug 13 16:43 : client: [8] closed
+Aug 13 16:43 : client: [9] opened from 127.0.0.1:41834
+Aug 13 16:43 : client: [9] closed
+Aug 13 16:47 : client: [10] opened from 127.0.0.1:41836
+Aug 13 16:47 : client: [10] closed
+Aug 13 16:48 : client: [11] opened from 127.0.0.1:41838
+Aug 13 16:48 : client: [11] closed
+Aug 13 18:00 : client: [12] opened from 127.0.0.1:41840
+Aug 13 18:00 : client: [12] closed
+Aug 13 18:00 : client: [13] opened from 127.0.0.1:41842
+Aug 13 18:01 : client: [14] opened from 127.0.0.1:41844
+Aug 13 18:01 : client: [14] closed
+Aug 13 18:01 : client: [15] opened from 127.0.0.1:41846
+Aug 13 18:01 : client: [15] closed
+Aug 13 18:05 : player: played "Alicia Keys/ALICIA/2. Time Machine.mp3"
+Aug 13 18:07 : client: [16] opened from 127.0.0.1:41848
+Aug 13 18:07 : client: [16] closed
+Aug 13 18:08 : client: [17] opened from 127.0.0.1:41850
+Aug 13 18:08 : client: [17] closed
+Aug 13 18:08 : client: [18] opened from 127.0.0.1:41854
+Aug 13 18:08 : client: [18] closed
+Aug 13 18:08 : client: [19] opened from 127.0.0.1:41856
+Aug 13 18:08 : client: [19] closed
+Aug 13 18:08 : client: [20] opened from 127.0.0.1:41858
+Aug 13 18:09 : player: played "Alicia Keys/ALICIA/3. Authors Of Forever.mp3"
+Aug 13 18:09 : client: [20] closed
+Aug 13 18:09 : client: [21] opened from 127.0.0.1:41860
+Aug 13 18:09 : client: [21] closed
+Aug 13 18:09 : client: [22] opened from 127.0.0.1:41862
+Aug 13 18:09 : client: [22] closed
+Aug 13 18:09 : client: [23] opened from 127.0.0.1:41864
+Aug 13 18:09 : client: [23] closed
+Aug 13 18:09 : client: [24] opened from 127.0.0.1:41866
+Aug 13 18:09 : client: [24] closed
+Aug 13 18:09 : client: [25] opened from 127.0.0.1:41868
+Aug 13 18:09 : client: [25] closed
+Aug 13 18:09 : client: [26] opened from 127.0.0.1:41870
+Aug 13 18:09 : client: [26] closed
+Aug 13 18:09 : client: [27] opened from 127.0.0.1:41872
+Aug 13 18:09 : client: [27] closed
+Aug 13 18:10 : client: [28] opened from 127.0.0.1:41874
+Aug 13 18:10 : client: [28] closed
+Aug 13 18:10 : client: [29] opened from 127.0.0.1:41876
+Aug 13 18:10 : client: [29] closed
+Aug 13 18:11 : client: [30] opened from 127.0.0.1:41878
+Aug 13 18:11 : client: [30] closed
+Aug 13 18:12 : client: [13] closed
+Aug 13 18:13 : player: played "Alicia Keys/ALICIA/4. Wasted Energy (Feat. Diamond Platinumz).mp3"
+Aug 13 18:17 : player: played "Alicia Keys/ALICIA/5. Underdog.mp3"
+Aug 13 18:17 : client: [31] opened from 127.0.0.1:41880
+Aug 13 18:17 : client: [31] closed
+Aug 13 18:19 : client: [32] opened from 127.0.0.1:41882
+Aug 13 18:19 : client: [32] closed
+Aug 13 18:45 : client: [33] opened from 127.0.0.1:41884
+Aug 13 18:45 : client: [33] closed
+Aug 13 18:45 : client: [34] opened from 127.0.0.1:41886
+Aug 13 18:45 : client: [34] closed
+Aug 13 19:07 : client: [35] opened from 127.0.0.1:41888
+Aug 13 19:07 : client: [35] closed
+Aug 13 19:10 : client: [36] opened from 127.0.0.1:41890
+Aug 13 19:10 : client: [36] closed
+Aug 13 19:21 : client: [37] opened from 127.0.0.1:41892
+Aug 13 19:21 : client: [37] closed
+Aug 13 19:35 : client: [38] opened from 127.0.0.1:41896
+Aug 13 19:35 : client: [38] closed
+Aug 13 19:36 : client: [39] opened from 127.0.0.1:41898
+Aug 13 19:36 : client: [39] closed
+Aug 13 19:36 : client: [40] opened from 127.0.0.1:41900
+Aug 13 19:36 : client: [40] closed
+Aug 13 19:38 : client: [41] opened from 127.0.0.1:41902
+Aug 13 19:38 : client: [41] closed
+Aug 13 19:51 : client: [0] closed
+Aug 13 19:51 : client: [42] opened from 127.0.0.1:41904
+Aug 13 19:51 : client: [43] opened from 127.0.0.1:41906
+Aug 13 19:51 : client: [43] closed
+Aug 13 19:58 : client: [44] opened from 127.0.0.1:41910
+Aug 13 19:58 : client: [44] closed
+Aug 13 20:07 : client: [45] opened from 127.0.0.1:41914
+Aug 13 20:07 : client: [45] closed
+Aug 13 20:10 : client: [46] opened from 127.0.0.1:41916
+Aug 13 20:10 : client: [46] closed
+Aug 13 20:20 : client: [47] opened from 127.0.0.1:41918
+Aug 13 20:20 : client: [47] closed
+Aug 13 20:20 : client: [48] opened from 127.0.0.1:41920
+Aug 13 20:20 : client: [48] closed
+Aug 13 20:20 : client: [49] opened from 127.0.0.1:41924
+Aug 13 20:20 : client: [49] closed
+Aug 13 20:20 : client: [50] opened from 127.0.0.1:41926
+Aug 13 20:20 : client: [50] closed
+Aug 13 20:21 : client: [51] opened from 127.0.0.1:41928
+Aug 13 20:21 : client: [51] closed
+Aug 13 20:21 : client: [52] opened from 127.0.0.1:41930
+Aug 13 20:21 : client: [52] closed
+Aug 13 20:21 : client: [53] opened from 127.0.0.1:41934
+Aug 13 20:21 : client: [53] closed
+Aug 13 20:22 : client: [54] opened from 127.0.0.1:41936
+Aug 13 20:22 : client: [54] closed
+Aug 13 20:22 : client: [55] opened from 127.0.0.1:41938
+Aug 13 20:22 : client: [56] opened from 127.0.0.1:41940
+Aug 13 20:22 : client: [56] closed
+Aug 13 20:22 : client: [57] opened from 127.0.0.1:41942
+Aug 13 20:22 : client: [57] closed
+Aug 13 20:23 : client: [58] opened from 127.0.0.1:41944
+Aug 13 20:23 : client: [58] closed
+Aug 13 20:25 : client: [55] closed
+Aug 13 20:25 : client: [59] opened from 127.0.0.1:41948
+Aug 13 20:25 : client: [59] closed
+Aug 13 20:27 : client: [60] opened from 127.0.0.1:41950
+Aug 13 20:27 : client: [60] closed
+Aug 13 20:56 : client: [61] opened from 127.0.0.1:41952
+Aug 13 20:56 : client: [61] closed
+Aug 13 20:56 : client: [62] opened from 127.0.0.1:41954
+Aug 13 20:56 : client: [62] closed
+Aug 13 21:09 : client: [63] opened from 127.0.0.1:41956
+Aug 13 21:09 : client: [63] closed
+Aug 13 21:09 : client: [64] opened from 127.0.0.1:41958
+Aug 13 21:09 : client: [64] closed
+Aug 13 21:14 : client: [65] opened from 127.0.0.1:41960
+Aug 13 21:14 : client: [65] closed
+Aug 13 21:24 : client: [66] opened from 127.0.0.1:41962
+Aug 13 21:24 : client: [66] closed
+Aug 13 21:34 : client: [67] opened from 127.0.0.1:41964
+Aug 13 21:34 : client: [67] closed
+Aug 13 21:57 : client: [68] opened from 127.0.0.1:41966
+Aug 13 21:57 : client: [68] closed
+Aug 13 21:58 : client: [69] opened from 127.0.0.1:41968
+Aug 13 21:58 : client: [69] closed
+Aug 13 22:00 : client: [70] opened from 127.0.0.1:41970
+Aug 13 22:00 : client: [70] closed
+Aug 13 22:08 : client: [71] opened from 127.0.0.1:41972
+Aug 13 22:08 : client: [71] closed
+Aug 13 22:12 : client: [72] opened from 127.0.0.1:41974
+Aug 13 22:12 : client: [72] closed
+Aug 13 22:15 : client: [73] opened from 127.0.0.1:41976
+Aug 13 22:15 : client: [73] closed
+Aug 14 11:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 14 11:24 : config: option 'device' on line 13 was not recognized
+Aug 14 11:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 14 11:24 : client: [0] opened from 127.0.0.1:49436
+Aug 14 11:24 : avahi: Service 'Music Player @ android-ff4f5a6d526f5a6d' successfully established.
+Aug 14 11:25 : client: [0] closed
+Aug 14 11:25 : client: [1] opened from 127.0.0.1:49438
+Aug 14 11:26 : client: [1] closed
+Aug 14 11:26 : client: [2] opened from 127.0.0.1:49440
+Aug 14 11:30 : client: [2] closed
+Aug 14 11:30 : client: [3] opened from 127.0.0.1:49442
+Aug 14 11:30 : client: [3] closed
+Aug 14 11:30 : client: [4] opened from 127.0.0.1:49444
+Aug 14 11:31 : client: [5] opened from 127.0.0.1:49446
+Aug 14 11:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 14 11:31 : client: [5] closed
+Aug 14 11:31 : client: [6] opened from 127.0.0.1:49448
+Aug 14 11:31 : client: [6] closed
+Aug 14 11:32 : client: [4] closed
+Aug 14 11:32 : client: [7] opened from 127.0.0.1:49450
+Aug 14 11:33 : client: [7] closed
+Aug 14 11:33 : client: [8] opened from 127.0.0.1:49452
+Aug 14 11:42 : client: [8] closed
+Aug 14 11:42 : client: [9] opened from 127.0.0.1:49458
+Aug 14 11:42 : client: [10] opened from 127.0.0.1:49460
+Aug 14 11:42 : client: [10] closed
+Aug 14 11:42 : client: [11] opened from 127.0.0.1:49462
+Aug 14 11:42 : client: [11] closed
+Aug 14 11:42 : client: [9] closed
+Aug 14 11:42 : client: [12] opened from 127.0.0.1:49464
+Aug 14 11:43 : client: [12] closed
+Aug 14 11:43 : client: [13] opened from 127.0.0.1:49466
+Aug 14 11:43 : client: [13] closed
+Aug 14 11:43 : client: [14] opened from 127.0.0.1:49468
+Aug 14 11:45 : client: [14] closed
+Aug 14 11:45 : client: [15] opened from 127.0.0.1:49470
+Aug 14 11:45 : client: [15] closed
+Aug 14 11:45 : client: [16] opened from 127.0.0.1:49472
+Aug 14 11:49 : client: [16] closed
+Aug 14 11:49 : client: [17] opened from 127.0.0.1:49474
+Aug 14 11:49 : client: [17] closed
+Aug 14 11:49 : client: [18] opened from 127.0.0.1:49476
+Aug 14 11:50 : client: [18] closed
+Aug 14 11:50 : client: [19] opened from 127.0.0.1:49478
+Aug 14 11:51 : client: [19] closed
+Aug 14 11:51 : client: [20] opened from 127.0.0.1:49482
+Aug 14 11:51 : client: [20] closed
+Aug 14 11:51 : client: [21] opened from 127.0.0.1:49484
+Aug 14 11:53 : client: [21] closed
+Aug 14 11:53 : client: [22] opened from 127.0.0.1:49486
+Aug 14 11:55 : client: [22] closed
+Aug 14 11:55 : client: [23] opened from 127.0.0.1:49488
+Aug 14 11:56 : client: [23] closed
+Aug 14 11:56 : client: [24] opened from 127.0.0.1:49490
+Aug 14 11:57 : client: [24] closed
+Aug 14 11:57 : client: [25] opened from 127.0.0.1:49492
+Aug 14 11:59 : client: [26] opened from 127.0.0.1:49494
+Aug 14 11:59 : client: [26] closed
+Aug 14 11:59 : client: [27] opened from 127.0.0.1:49496
+Aug 14 11:59 : client: [27] closed
+Aug 14 12:00 : client: [25] closed
+Aug 14 12:00 : client: [28] opened from 127.0.0.1:49498
+Aug 14 12:02 : client: [28] closed
+Aug 14 12:02 : client: [29] opened from 127.0.0.1:49500
+Aug 14 12:02 : client: [29] closed
+Aug 14 12:02 : client: [30] opened from 127.0.0.1:49502
+Aug 14 12:03 : client: [30] closed
+Aug 14 12:03 : client: [31] opened from 127.0.0.1:49504
+Aug 14 12:03 : client: [32] opened from 127.0.0.1:49506
+Aug 14 12:03 : client: [32] closed
+Aug 14 12:03 : client: [33] opened from 127.0.0.1:49508
+Aug 14 12:03 : client: [33] closed
+Aug 14 12:04 : client: [34] opened from 127.0.0.1:49510
+Aug 14 12:04 : client: [34] closed
+Aug 14 12:04 : player: played "Alicia Keys/ALICIA/6. 3 Hour Drive (Feat. Sampha).mp3"
+Aug 14 12:05 : client: [31] closed
+Aug 14 12:05 : client: [35] opened from 127.0.0.1:49512
+Aug 14 12:06 : client: [35] closed
+Aug 14 12:06 : client: [36] opened from 127.0.0.1:49514
+Aug 14 12:06 : client: [36] closed
+Aug 14 12:06 : client: [37] opened from 127.0.0.1:49516
+Aug 14 12:08 : player: played "Alicia Keys/ALICIA/7. Me x 7 (Feat. Tierra Whack).mp3"
+Aug 14 12:09 : client: [37] closed
+Aug 14 12:09 : client: [38] opened from 127.0.0.1:49518
+Aug 14 12:11 : player: played "Alicia Keys/ALICIA/8. Show Me Love (Feat. Miguel).mp3"
+Aug 14 12:15 : player: played "Alicia Keys/ALICIA/9. So Done (Feat. Khalid).mp3"
+Aug 14 12:18 : player: played "Alicia Keys/ALICIA/10. Gramercy Park.mp3"
+Aug 14 12:21 : player: played "Alicia Keys/ALICIA/11. Love Looks Better.mp3"
+Aug 14 12:25 : player: played "Alicia Keys/ALICIA/12. You Save Me (Feat. Snoh Aalegra).mp3"
+Aug 14 12:28 : client: [38] closed
+Aug 14 12:28 : client: [39] opened from 127.0.0.1:49520
+Aug 14 12:29 : player: played "Alicia Keys/ALICIA/13. Jill Scott (Feat. Jill Scott).mp3"
+Aug 14 12:33 : player: played "Alicia Keys/ALICIA/14. Perfect Way To Die.mp3"
+Aug 14 12:37 : player: played "Alicia Keys/ALICIA/15. Good Job.mp3"
+Aug 14 12:40 : player: played "0000/Alvvays - Antisocialites (2017) [320]/01. In Undertow.mp3"
+Aug 14 12:43 : player: played "0000/Alvvays - Antisocialites (2017) [320]/02. Dreams Tonite.mp3"
+Aug 14 12:48 : player: played "0000/Alvvays - Antisocialites (2017) [320]/03. Plimsoll Punks.mp3"
+Aug 14 12:50 : player: played "0000/Alvvays - Antisocialites (2017) [320]/04. Your Type.mp3"
+Aug 14 12:53 : client: [40] opened from 127.0.0.1:49522
+Aug 14 12:53 : client: [40] closed
+Aug 14 12:53 : client: [41] opened from 127.0.0.1:49524
+Aug 14 12:53 : client: [41] closed
+Aug 14 12:54 : player: played "0000/Alvvays - Antisocialites (2017) [320]/05. Not My Baby.mp3"
+Aug 14 12:57 : player: played "0000/Alvvays - Antisocialites (2017) [320]/06. Hey.mp3"
+Aug 14 13:00 : player: played "0000/Alvvays - Antisocialites (2017) [320]/07. Lollipop (Ode to Jim).mp3"
+Aug 14 13:03 : player: played "0000/Alvvays - Antisocialites (2017) [320]/08. Already Gone.mp3"
+Aug 14 13:04 : client: [42] opened from 127.0.0.1:49528
+Aug 14 13:04 : client: [42] closed
+Aug 14 13:05 : client: [39] closed
+Aug 14 13:05 : client: [43] opened from 127.0.0.1:49530
+Aug 14 13:06 : player: played "0000/Alvvays - Antisocialites (2017) [320]/09. Saved By a Waif.mp3"
+Aug 14 13:09 : player: played "0000/Alvvays - Antisocialites (2017) [320]/10. Forget About Life.mp3"
+Aug 14 13:09 : client: [43] closed
+Aug 14 13:09 : client: [44] opened from 127.0.0.1:49534
+Aug 14 13:13 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/01. Cry.mp3"
+Aug 14 13:15 : client: [44] closed
+Aug 14 13:15 : client: [45] opened from 127.0.0.1:49536
+Aug 14 13:16 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/02. Ciao Adios.mp3"
+Aug 14 13:17 : client: [45] closed
+Aug 14 13:17 : client: [46] opened from 127.0.0.1:49538
+Aug 14 13:19 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/03. Alarm.mp3"
+Aug 14 13:21 : client: [46] closed
+Aug 14 13:21 : client: [47] opened from 127.0.0.1:49540
+Aug 14 13:23 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/04. Trigger.mp3"
+Aug 14 13:24 : client: [47] closed
+Aug 14 13:24 : client: [48] opened from 127.0.0.1:49542
+Aug 14 13:26 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/05. Then.mp3"
+Aug 14 13:27 : client: [48] closed
+Aug 14 13:27 : client: [49] opened from 127.0.0.1:49544
+Aug 14 13:27 : client: [49] closed
+Aug 14 13:27 : client: [50] opened from 127.0.0.1:49546
+Aug 14 13:30 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/06. Perfect.mp3"
+Aug 14 13:32 : client: [50] closed
+Aug 14 13:32 : client: [51] opened from 127.0.0.1:49548
+Aug 14 13:33 : client: [51] closed
+Aug 14 13:33 : client: [52] opened from 127.0.0.1:49550
+Aug 14 13:34 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/07. FRIENDS.mp3"
+Aug 14 13:35 : client: [52] closed
+Aug 14 13:36 : client: [53] opened from 127.0.0.1:49552
+Aug 14 13:37 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/08. Bad Girlfriend.mp3"
+Aug 14 13:37 : client: [53] closed
+Aug 14 13:37 : client: [54] opened from 127.0.0.1:49554
+Aug 14 13:40 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/09. Heavy.mp3"
+Aug 14 13:42 : client: [54] closed
+Aug 14 13:42 : client: [55] opened from 127.0.0.1:49556
+Aug 14 13:42 : client: [55] closed
+Aug 14 13:42 : client: [56] opened from 127.0.0.1:49558
+Aug 14 13:43 : client: [56] closed
+Aug 14 13:43 : client: [57] opened from 127.0.0.1:49560
+Aug 14 13:43 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/10. 2002.mp3"
+Aug 14 13:46 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/11. Can I Get Your Number.mp3"
+Aug 14 13:50 : client: [58] opened from 127.0.0.1:49564
+Aug 14 13:50 : client: [58] closed
+Aug 14 13:50 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/12. Machine.mp3"
+Aug 14 13:54 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/13. Breathing Fire.mp3"
+Aug 14 13:58 : player: played "Anne-Marie /Speak Your Mind (Deluxe)/14. Some People.mp3"
+Aug 14 13:59 : client: [59] opened from 127.0.0.1:49568
+Aug 14 13:59 : client: [59] closed
+Aug 14 13:59 : client: [60] opened from 127.0.0.1:49570
+Aug 14 13:59 : client: [61] opened from 127.0.0.1:49572
+Aug 14 13:59 : client: [61] closed
+Aug 14 14:00 : client: [62] opened from 127.0.0.1:49574
+Aug 14 14:00 : client: [62] closed
+Aug 14 14:00 : client: [63] opened from 127.0.0.1:49576
+Aug 14 14:00 : client: [63] closed
+Aug 14 14:00 : client: [64] opened from 127.0.0.1:49578
+Aug 14 14:00 : client: [64] closed
+Aug 14 14:00 : client: [65] opened from 127.0.0.1:49580
+Aug 14 14:00 : client: [65] closed
+Aug 14 14:00 : client: [66] opened from 127.0.0.1:49582
+Aug 14 14:00 : client: [66] closed
+Aug 14 14:00 : client: [67] opened from 127.0.0.1:49584
+Aug 14 14:00 : client: [67] closed
+Aug 14 14:00 : client: [68] opened from 127.0.0.1:49586
+Aug 14 14:00 : client: [69] opened from 127.0.0.1:49588
+Aug 14 14:00 : client: [69] closed
+Aug 14 14:00 : client: [68] closed
+Aug 14 14:00 : client: [70] opened from 127.0.0.1:49590
+Aug 14 14:00 : client: [70] closed
+Aug 14 14:00 : client: [71] opened from 127.0.0.1:49592
+Aug 14 14:00 : client: [71] closed
+Aug 14 14:00 : client: [72] opened from 127.0.0.1:49594
+Aug 14 14:00 : client: [72] closed
+Aug 14 14:00 : client: [73] opened from 127.0.0.1:49596
+Aug 14 14:00 : client: [73] closed
+Aug 14 14:03 : client: [74] opened from 127.0.0.1:49598
+Aug 14 14:03 : client: [74] closed
+Aug 14 14:03 : client: [75] opened from 127.0.0.1:49600
+Aug 14 14:03 : client: [75] closed
+Aug 14 14:03 : client: [76] opened from 127.0.0.1:49602
+Aug 14 14:03 : client: [76] closed
+Aug 14 14:03 : client: [77] opened from 127.0.0.1:49606
+Aug 14 14:03 : client: [77] closed
+Aug 14 14:03 : client: [78] opened from 127.0.0.1:49608
+Aug 14 14:03 : client: [78] closed
+Aug 14 14:03 : client: [79] opened from 127.0.0.1:49610
+Aug 14 14:03 : client: [79] closed
+Aug 14 14:03 : client: [80] opened from 127.0.0.1:49612
+Aug 14 14:04 : client: [81] opened from 127.0.0.1:49614
+Aug 14 14:04 : client: [81] closed
+Aug 14 14:04 : client: [82] opened from 127.0.0.1:49618
+Aug 14 14:04 : client: [82] closed
+Aug 14 14:05 : client: [83] opened from 127.0.0.1:49620
+Aug 14 14:05 : client: [83] closed
+Aug 14 14:06 : player: played "Phoebe Bridgers/Punisher/02 - Garden Song.mp3"
+Aug 14 14:06 : client: [80] closed
+Aug 14 14:06 : client: [84] opened from 127.0.0.1:49622
+Aug 14 14:06 : client: [84] closed
+Aug 14 14:06 : client: [85] opened from 127.0.0.1:49624
+Aug 14 14:06 : client: [85] closed
+Aug 14 14:06 : client: [86] opened from 127.0.0.1:49626
+Aug 14 14:06 : client: [86] closed
+Aug 14 14:06 : client: [87] opened from 127.0.0.1:49628
+Aug 14 14:06 : client: [87] closed
+Aug 14 14:06 : client: [88] opened from 127.0.0.1:49630
+Aug 14 14:06 : client: [88] closed
+Aug 14 14:06 : client: [89] opened from 127.0.0.1:49632
+Aug 14 14:06 : client: [89] closed
+Aug 14 14:06 : client: [90] opened from 127.0.0.1:49634
+Aug 14 14:06 : client: [90] closed
+Aug 14 14:06 : client: [91] opened from 127.0.0.1:49636
+Aug 14 14:06 : client: [91] closed
+Aug 14 14:06 : client: [92] opened from 127.0.0.1:49638
+Aug 14 14:06 : client: [92] closed
+Aug 14 14:06 : client: [93] opened from 127.0.0.1:49640
+Aug 14 14:07 : client: [93] closed
+Aug 14 14:07 : client: [94] opened from 127.0.0.1:49642
+Aug 14 14:07 : client: [94] closed
+Aug 14 14:07 : client: [95] opened from 127.0.0.1:49644
+Aug 14 14:07 : client: [95] closed
+Aug 14 14:07 : client: [96] opened from 127.0.0.1:49646
+Aug 14 14:07 : client: [96] closed
+Aug 14 14:08 : client: [97] opened from 127.0.0.1:49648
+Aug 14 14:08 : client: [97] closed
+Aug 14 14:08 : client: [98] opened from 127.0.0.1:49650
+Aug 14 14:08 : client: [98] closed
+Aug 14 14:08 : client: [99] opened from 127.0.0.1:49652
+Aug 14 14:08 : client: [99] closed
+Aug 14 14:08 : client: [100] opened from 127.0.0.1:49654
+Aug 14 14:08 : client: [100] closed
+Aug 14 14:08 : client: [101] opened from 127.0.0.1:49656
+Aug 14 14:08 : client: [101] closed
+Aug 14 14:08 : client: [102] opened from 127.0.0.1:49658
+Aug 14 14:08 : client: [102] closed
+Aug 14 14:08 : client: [103] opened from 127.0.0.1:49662
+Aug 14 14:08 : client: [103] closed
+Aug 14 14:08 : client: [104] opened from 127.0.0.1:49664
+Aug 14 14:08 : client: [105] opened from 127.0.0.1:49666
+Aug 14 14:08 : client: [105] closed
+Aug 14 14:08 : client: [104] closed
+Aug 14 14:08 : client: [106] opened from 127.0.0.1:49668
+Aug 14 14:08 : client: [106] closed
+Aug 14 14:08 : client: [107] opened from 127.0.0.1:49670
+Aug 14 14:08 : client: [107] closed
+Aug 14 14:08 : client: [108] opened from 127.0.0.1:49672
+Aug 14 14:08 : client: [108] closed
+Aug 14 14:08 : client: [109] opened from 127.0.0.1:49674
+Aug 14 14:08 : client: [109] closed
+Aug 14 14:09 : client: [110] opened from 127.0.0.1:49676
+Aug 14 14:09 : client: [110] closed
+Aug 14 14:09 : client: [111] opened from 127.0.0.1:49678
+Aug 14 14:09 : client: [111] closed
+Aug 14 14:09 : client: [112] opened from 127.0.0.1:49680
+Aug 14 14:09 : client: [112] closed
+Aug 14 14:09 : client: [113] opened from 127.0.0.1:49682
+Aug 14 14:09 : client: [113] closed
+Aug 14 14:09 : client: [114] opened from 127.0.0.1:49684
+Aug 14 14:09 : client: [114] closed
+Aug 14 14:09 : client: [115] opened from 127.0.0.1:49686
+Aug 14 14:09 : client: [115] closed
+Aug 14 14:09 : client: [116] opened from 127.0.0.1:49688
+Aug 14 14:09 : client: [116] closed
+Aug 14 14:09 : client: [117] opened from 127.0.0.1:49692
+Aug 14 14:09 : client: [117] closed
+Aug 14 14:09 : client: [118] opened from 127.0.0.1:49694
+Aug 14 14:09 : client: [118] closed
+Aug 14 14:09 : client: [119] opened from 127.0.0.1:49696
+Aug 14 14:09 : client: [119] closed
+Aug 14 14:09 : client: [120] opened from 127.0.0.1:49698
+Aug 14 14:09 : client: [120] closed
+Aug 14 14:09 : client: [121] opened from 127.0.0.1:49700
+Aug 14 14:09 : client: [121] closed
+Aug 14 14:09 : client: [122] opened from 127.0.0.1:49702
+Aug 14 14:10 : client: [123] opened from 127.0.0.1:49704
+Aug 14 14:10 : client: [123] closed
+Aug 14 14:10 : client: [122] closed
+Aug 14 14:10 : client: [124] opened from 127.0.0.1:49706
+Aug 14 14:10 : client: [124] closed
+Aug 14 14:10 : client: [125] opened from 127.0.0.1:49708
+Aug 14 14:10 : client: [125] closed
+Aug 14 14:10 : client: [126] opened from 127.0.0.1:49710
+Aug 14 14:10 : client: [126] closed
+Aug 14 14:10 : client: [127] opened from 127.0.0.1:49712
+Aug 14 14:10 : client: [127] closed
+Aug 14 14:10 : client: [128] opened from 127.0.0.1:49714
+Aug 14 14:10 : client: [128] closed
+Aug 14 14:10 : client: [129] opened from 127.0.0.1:49716
+Aug 14 14:10 : client: [129] closed
+Aug 14 14:10 : client: [130] opened from 127.0.0.1:49718
+Aug 14 14:10 : client: [130] closed
+Aug 14 14:10 : client: [131] opened from 127.0.0.1:49720
+Aug 14 14:10 : client: [131] closed
+Aug 14 14:10 : client: [132] opened from 127.0.0.1:49722
+Aug 14 14:10 : client: [132] closed
+Aug 14 14:11 : client: [133] opened from 127.0.0.1:49724
+Aug 14 14:11 : client: [133] closed
+Aug 14 14:11 : client: [134] opened from 127.0.0.1:49726
+Aug 14 14:11 : client: [134] closed
+Aug 14 14:11 : client: [135] opened from 127.0.0.1:49728
+Aug 14 14:11 : client: [135] closed
+Aug 14 14:11 : client: [136] opened from 127.0.0.1:49730
+Aug 14 14:11 : client: [136] closed
+Aug 14 14:11 : client: [137] opened from 127.0.0.1:49732
+Aug 14 14:11 : client: [137] closed
+Aug 14 14:11 : client: [138] opened from 127.0.0.1:49734
+Aug 14 14:11 : client: [138] closed
+Aug 14 14:12 : client: [139] opened from 127.0.0.1:49736
+Aug 14 14:12 : client: [139] closed
+Aug 14 14:12 : client: [140] opened from 127.0.0.1:49738
+Aug 14 14:12 : client: [140] closed
+Aug 14 14:12 : client: [141] opened from 127.0.0.1:49740
+Aug 14 14:12 : client: [141] closed
+Aug 14 14:12 : client: [142] opened from 127.0.0.1:49742
+Aug 14 14:12 : client: [142] closed
+Aug 14 14:12 : client: [143] opened from 127.0.0.1:49746
+Aug 14 14:12 : client: [143] closed
+Aug 14 14:12 : client: [144] opened from 127.0.0.1:49748
+Aug 14 14:12 : client: [144] closed
+Aug 14 14:12 : client: [145] opened from 127.0.0.1:49750
+Aug 14 14:14 : client: [146] opened from 127.0.0.1:49752
+Aug 14 14:14 : client: [147] opened from 127.0.0.1:49754
+Aug 14 14:14 : exception: Unsupported URI scheme
+Aug 14 14:14 : exception: Failed to open '/home/dt/.mpd/playlists/[Radio Streams].m3u': No such file or directory
+Aug 14 14:14 : exception: No such playlist
+Aug 14 14:16 : client: [145] closed
+Aug 14 14:16 : client: [148] opened from 127.0.0.1:49756
+Aug 14 14:16 : client: [148] closed
+Aug 14 14:16 : client: [149] opened from 127.0.0.1:49758
+Aug 14 14:16 : client: [149] closed
+Aug 14 14:16 : client: [150] opened from 127.0.0.1:49760
+Aug 14 14:16 : client: [150] closed
+Aug 14 14:16 : client: [151] opened from 127.0.0.1:49762
+Aug 14 14:16 : client: [151] closed
+Aug 14 14:16 : client: [152] opened from 127.0.0.1:49764
+Aug 14 14:17 : client: [152] closed
+Aug 14 14:17 : client: [153] opened from 127.0.0.1:49766
+Aug 14 14:17 : client: [153] closed
+Aug 14 14:17 : client: [154] opened from 127.0.0.1:49768
+Aug 14 14:17 : client: [154] closed
+Aug 14 14:17 : client: [155] opened from 127.0.0.1:49770
+Aug 14 14:17 : client: [155] closed
+Aug 14 14:17 : client: [156] opened from 127.0.0.1:49772
+Aug 14 14:18 : client: [156] closed
+Aug 14 14:18 : client: [157] opened from 127.0.0.1:49774
+Aug 14 14:18 : client: [157] closed
+Aug 14 14:18 : client: [158] opened from 127.0.0.1:49778
+Aug 14 14:18 : client: [158] closed
+Aug 14 14:18 : client: [159] opened from 127.0.0.1:49780
+Aug 14 14:18 : client: [159] closed
+Aug 14 14:18 : client: [160] opened from 127.0.0.1:49782
+Aug 14 14:18 : client: [160] closed
+Aug 14 14:18 : client: [161] opened from 127.0.0.1:49784
+Aug 14 14:18 : client: [161] closed
+Aug 14 14:18 : client: [162] opened from 127.0.0.1:49786
+Aug 14 14:18 : client: [162] closed
+Aug 14 14:18 : client: [163] opened from 127.0.0.1:49788
+Aug 14 14:18 : client: [163] closed
+Aug 14 14:18 : client: [164] opened from 127.0.0.1:49790
+Aug 14 14:18 : client: [164] closed
+Aug 14 14:18 : client: [165] opened from 127.0.0.1:49792
+Aug 14 14:18 : client: [165] closed
+Aug 14 14:18 : client: [166] opened from 127.0.0.1:49794
+Aug 14 14:18 : client: [166] closed
+Aug 14 14:18 : client: [167] opened from 127.0.0.1:49796
+Aug 14 14:18 : client: [167] closed
+Aug 14 14:18 : client: [168] opened from 127.0.0.1:49798
+Aug 14 14:18 : client: [168] closed
+Aug 14 14:18 : client: [169] opened from 127.0.0.1:49800
+Aug 14 14:18 : client: [169] closed
+Aug 14 14:18 : client: [170] opened from 127.0.0.1:49802
+Aug 14 14:18 : client: [170] closed
+Aug 14 14:18 : client: [171] opened from 127.0.0.1:49804
+Aug 14 14:18 : client: [171] closed
+Aug 14 14:18 : client: [172] opened from 127.0.0.1:49806
+Aug 14 14:19 : client: [172] closed
+Aug 14 14:19 : client: [173] opened from 127.0.0.1:49808
+Aug 14 14:19 : client: [173] closed
+Aug 14 14:19 : client: [174] opened from 127.0.0.1:49810
+Aug 14 14:19 : client: [174] closed
+Aug 14 14:19 : client: [175] opened from 127.0.0.1:49812
+Aug 14 14:19 : client: [175] closed
+Aug 14 14:19 : client: [176] opened from 127.0.0.1:49814
+Aug 14 14:19 : client: [176] closed
+Aug 14 14:19 : client: [177] opened from 127.0.0.1:49816
+Aug 14 14:19 : client: [177] closed
+Aug 14 14:19 : client: [178] opened from 127.0.0.1:49818
+Aug 14 14:19 : client: [178] closed
+Aug 14 14:19 : client: [179] opened from 127.0.0.1:49820
+Aug 14 14:19 : client: [179] closed
+Aug 14 14:19 : client: [180] opened from 127.0.0.1:49822
+Aug 14 14:19 : client: [180] closed
+Aug 14 14:19 : client: [181] opened from 127.0.0.1:49824
+Aug 14 14:19 : client: [181] closed
+Aug 14 14:19 : client: [182] opened from 127.0.0.1:49826
+Aug 14 14:19 : client: [182] closed
+Aug 14 14:19 : client: [183] opened from 127.0.0.1:49828
+Aug 14 14:22 : player: played "Purity Ring/WOMB/06 - sinew.mp3"
+Aug 14 14:22 : client: [183] closed
+Aug 14 14:22 : client: [184] opened from 127.0.0.1:49830
+Aug 14 14:22 : client: [184] closed
+Aug 14 14:22 : client: [185] opened from 127.0.0.1:49832
+Aug 14 14:22 : client: [185] closed
+Aug 14 14:22 : client: [186] opened from 127.0.0.1:49836
+Aug 14 14:22 : client: [186] closed
+Aug 14 14:22 : client: [187] opened from 127.0.0.1:49838
+Aug 14 14:22 : client: [187] closed
+Aug 14 14:22 : client: [188] opened from 127.0.0.1:49840
+Aug 14 14:22 : client: [188] closed
+Aug 14 14:22 : client: [189] opened from 127.0.0.1:49842
+Aug 14 14:24 : player: played "Purity Ring/WOMB/07 - vehemence.mp3"
+Aug 14 14:24 : client: [189] closed
+Aug 14 14:24 : client: [190] opened from 127.0.0.1:49844
+Aug 14 14:24 : client: [190] closed
+Aug 14 14:24 : client: [191] opened from 127.0.0.1:49846
+Aug 14 14:24 : client: [147] closed
+Aug 14 14:24 : client: [146] closed
+Aug 14 14:24 : client: [192] opened from 127.0.0.1:49850
+Aug 14 14:24 : client: [192] closed
+Aug 14 14:24 : client: [191] closed
+Aug 14 14:24 : client: [193] opened from 127.0.0.1:49852
+Aug 14 14:24 : client: [193] closed
+Aug 14 14:24 : client: [194] opened from 127.0.0.1:49854
+Aug 14 14:24 : client: [194] closed
+Aug 14 14:24 : client: [195] opened from 127.0.0.1:49856
+Aug 14 14:24 : client: [195] closed
+Aug 14 14:24 : client: [196] opened from 127.0.0.1:49858
+Aug 14 14:24 : client: [196] closed
+Aug 14 14:24 : client: [197] opened from 127.0.0.1:49860
+Aug 14 14:24 : client: [197] closed
+Aug 14 14:24 : client: [198] opened from 127.0.0.1:49862
+Aug 14 14:24 : client: [198] closed
+Aug 14 14:24 : client: [199] opened from 127.0.0.1:49864
+Aug 14 14:24 : client: [199] closed
+Aug 14 14:24 : client: [200] opened from 127.0.0.1:49866
+Aug 14 14:26 : client: [201] opened from 127.0.0.1:49868
+Aug 14 14:26 : client: [202] opened from 127.0.0.1:49870
+Aug 14 14:26 : exception: Unsupported URI scheme
+Aug 14 14:26 : exception: Failed to open '/home/dt/.mpd/playlists/[Radio Streams].m3u': No such file or directory
+Aug 14 14:26 : exception: No such playlist
+Aug 14 14:26 : client: [203] opened from 127.0.0.1:49872
+Aug 14 14:26 : client: [203] closed
+Aug 14 14:27 : client: [200] closed
+Aug 14 14:27 : client: [204] opened from 127.0.0.1:49874
+Aug 14 14:27 : client: [204] closed
+Aug 14 14:27 : client: [205] opened from 127.0.0.1:49876
+Aug 14 14:27 : client: [205] closed
+Aug 14 14:27 : client: [206] opened from 127.0.0.1:49880
+Aug 14 14:27 : client: [206] closed
+Aug 14 14:27 : client: [207] opened from 127.0.0.1:49882
+Aug 14 14:27 : client: [207] closed
+Aug 14 14:27 : client: [208] opened from 127.0.0.1:49884
+Aug 14 14:27 : client: [208] closed
+Aug 14 14:27 : client: [209] opened from 127.0.0.1:49886
+Aug 14 14:28 : client: [210] opened from 127.0.0.1:49888
+Aug 14 14:28 : client: [210] closed
+Aug 14 14:28 : client: [209] closed
+Aug 14 14:28 : client: [60] closed
+Aug 14 14:28 : player: played "Broods/Don't Feed The Pop Monster/05 - Everytime You Go I Cry.mp3"
+Aug 14 14:28 : client: [202] closed
+Aug 14 14:28 : client: [201] closed
+Aug 14 14:28 : client: [211] opened from 127.0.0.1:49890
+Aug 14 14:28 : client: [211] closed
+Aug 14 14:30 : client: [212] opened from 127.0.0.1:49892
+Aug 14 14:30 : client: [212] closed
+Aug 14 14:30 : client: [213] opened from 127.0.0.1:49894
+Aug 14 14:30 : client: [213] closed
+Aug 14 14:30 : client: [214] opened from 127.0.0.1:49896
+Aug 14 14:30 : client: [214] closed
+Aug 14 14:30 : client: [215] opened from 127.0.0.1:49898
+Aug 14 14:30 : client: [215] closed
+Aug 14 14:32 : client: [216] opened from 127.0.0.1:49900
+Aug 14 14:32 : client: [216] closed
+Aug 14 14:33 : client: [217] opened from 127.0.0.1:49902
+Aug 14 14:33 : client: [217] closed
+Aug 14 14:33 : player: played "Broods/Don't Feed The Pop Monster/05 - Everytime You Go I Cry.mp3"
+Aug 14 14:34 : client: [218] opened from 127.0.0.1:49904
+Aug 14 14:34 : client: [218] closed
+Aug 14 14:37 : player: played "Broods/Don't Feed The Pop Monster/06 - Dust.mp3"
+Aug 14 14:38 : client: [219] opened from 127.0.0.1:49906
+Aug 14 14:38 : client: [219] closed
+Aug 14 14:38 : client: [220] opened from 127.0.0.1:49908
+Aug 14 14:38 : client: [220] closed
+Aug 14 14:39 : client: [221] opened from 127.0.0.1:49912
+Aug 14 14:39 : client: [221] closed
+Aug 14 14:39 : client: [222] opened from 127.0.0.1:49914
+Aug 14 14:39 : client: [222] closed
+Aug 14 15:12 : client: [223] opened from 127.0.0.1:49916
+Aug 14 15:12 : client: [224] opened from 127.0.0.1:49918
+Aug 14 15:12 : client: [223] closed
+Aug 14 15:12 : client: [224] closed
+Aug 14 15:13 : client: [225] opened from 127.0.0.1:49922
+Aug 14 15:13 : client: [225] closed
+Aug 14 15:20 : client: [226] opened from 127.0.0.1:49924
+Aug 14 15:20 : client: [226] closed
+Aug 14 15:29 : client: [227] opened from 127.0.0.1:49926
+Aug 14 15:29 : client: [227] closed
+Aug 14 15:30 : client: [228] opened from 127.0.0.1:49930
+Aug 14 15:30 : client: [228] closed
+Aug 14 15:30 : client: [229] opened from 127.0.0.1:49932
+Aug 14 15:30 : client: [229] closed
+Aug 14 15:30 : client: [230] opened from 127.0.0.1:49934
+Aug 14 15:30 : client: [230] closed
+Aug 14 15:30 : client: [231] opened from 127.0.0.1:49936
+Aug 14 15:30 : client: [231] closed
+Aug 14 15:30 : client: [232] opened from 127.0.0.1:49938
+Aug 14 15:30 : client: [232] closed
+Aug 14 15:30 : client: [233] opened from 127.0.0.1:49940
+Aug 14 15:30 : client: [233] closed
+Aug 14 15:30 : client: [234] opened from 127.0.0.1:49942
+Aug 14 15:30 : client: [234] closed
+Aug 14 15:30 : client: [235] opened from 127.0.0.1:49944
+Aug 14 15:30 : client: [235] closed
+Aug 14 15:30 : client: [236] opened from 127.0.0.1:49946
+Aug 14 15:30 : client: [237] opened from 127.0.0.1:49948
+Aug 14 15:30 : client: [236] closed
+Aug 14 15:30 : client: [237] closed
+Aug 14 15:30 : client: [238] opened from 127.0.0.1:49950
+Aug 14 15:30 : client: [238] closed
+Aug 14 15:30 : client: [239] opened from 127.0.0.1:49952
+Aug 14 15:30 : client: [239] closed
+Aug 14 15:31 : client: [240] opened from 127.0.0.1:49954
+Aug 14 15:31 : client: [240] closed
+Aug 14 15:33 : client: [241] opened from 127.0.0.1:49956
+Aug 14 15:33 : client: [241] closed
