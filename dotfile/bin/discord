@@ -1,0 +1,2 @@
+#!/bin/bash
+brave-browser --app=https://discord.com/login? --class=WebApp-Discord9008 --user-data-dir=/home/dt/.local/share/ice/profiles/Discord9008
