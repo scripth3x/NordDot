@@ -1,3 +1,0 @@
-#!/bin/bash
-
-brave-browser --app=http://facebook.com --class=WebApp-Facebook4879 --user-data-dir=/home/dt/.local/share/ice/profiles/Facebook4879  &  brave-browser --app=https://www.instagram.com --class=WebApp-Instagram8413 --user-data-dir=/home/dt/.local/share/ice/profiles/Instagram8413
