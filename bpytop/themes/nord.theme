@@ -1,0 +1,89 @@
+# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
+# example for white: "#ffffff", "#ff" or "255 255 255".
+
+# All graphs and meters can be gradients
+# For single color graphs leave "mid" and "end" variable empty.
+# Use "start" and "end" variables for two color gradient
+# Use "start", "mid" and "end" for three color gradient
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#282c34"
+
+# Main text color
+theme[main_fg]="#D8DEE9"
+
+# Title color for boxes
+theme[title]="#D8DEE9"
+
+# Higlight color for keyboard shortcuts
+theme[hi_fg]="#81A1C1"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#2E3440"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#5E81AC"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#282c34"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#2D2B40"
+
+# Cpu box outline color
+theme[cpu_box]="#4C566A"
+
+# Memory/disks box outline color
+theme[mem_box]="#4C566A"
+
+# Net up/down box outline color
+theme[net_box]="#4C566A"
+
+# Processes box outline color
+theme[proc_box]="#4C566A"
+
+# Box divider line and small boxes line color
+theme[div_line]="#3B4252"
+
+# Temperature graph colors
+theme[temp_start]="#A3BE8C"
+theme[temp_mid]="#EBCB8B"
+theme[temp_end]="#BF616A"
+
+# CPU graph colors
+theme[cpu_start]="#A3BE8C"
+theme[cpu_end]="#BF616A"
+
+# Mem/Disk free meter
+# End is hight start is low
+theme[free_end]="#A3BE8C"
+theme[free_mid]="#EBCB8B"
+theme[free_start]="#BF616A"
+
+# Mem/Disk cached meter
+# End is hight start is low
+theme[cached_start]="#A3BE8C"
+theme[cached_mid]="#EBCB8B"
+theme[cached_end]="#BF616A"
+
+# Mem/Disk available meter
+# End is hight start is low
+theme[available_end]="#A3BE8C"
+theme[available_mid]="#EBCB8B"
+theme[available_start]="#BF616A"
+
+# Mem/Disk used meter
+theme[used_start]="#A3BE8C"
+theme[used_end]="#BF616A"
+
+# Download graph colors
+theme[download_start]="#EBCB8B"
+theme[download_mid]="#56b6c2"
+theme[download_end]="#B48EAD"
+
+# Upload graph colors
+theme[upload_start]="#EBCB8B"
+theme[upload_mid]="#56b6c2"
+theme[upload_end]="#B48EAD"
+
+# vim: ft=cfg
